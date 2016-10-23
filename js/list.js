@@ -1,6 +1,6 @@
 
 
-sasa.controller("listCtrl", ["$scope", "$http", "$anchorScroll", "$location", function ($scope, $http, $anchorScroll, $location) {
+biuti.controller("listCtrl", ["$scope", "$http", "$anchorScroll", "$location", function ($scope, $http, $anchorScroll, $location) {
 	$scope.info.now = 'list'
 
 	$scope.listnow = 'goodslist';

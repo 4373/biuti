@@ -1,5 +1,5 @@
 
-sasa.controller('detailsCtrl', ["$scope", "$http", "$location", "$sce", '$interval', '$timeout', 'collectAndScanned', 'ShopCar', function ($scope, $http, $location, $sce, $interval, $timeout, collectAndScanned, ShopCar) {
+biuti.controller('detailsCtrl', ["$scope", "$http", "$location", "$sce", '$interval', '$timeout', 'collectAndScanned', 'ShopCar', function ($scope, $http, $location, $sce, $interval, $timeout, collectAndScanned, ShopCar) {
     $scope.urlKind = {
         details: 'data/details/' + $scope.info.detailsID + '/getProductDetailInfo.json',
         commonts: 'data/details/' + $scope.info.detailsID + '/getProducECCommentList.json',

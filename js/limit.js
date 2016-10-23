@@ -1,7 +1,7 @@
-sasa.controller("limitCtrl", ['$rootScope',"$scope", "$http", '$interval','ShopCar', function ($rootScope,$scope, $http, $interval,ShopCar) {
+biuti.controller("limitCtrl", ['$rootScope',"$scope", "$http", '$interval','ShopCar', function ($rootScope,$scope, $http, $interval,ShopCar) {
     $scope.info.now='special'
 
-    //http://cn01.alicdn.sasa.com/
+    //http://cn01.alicdn.biuti.com/
     $http.get('data/limitSale.json').success(function (data) {
         console.log(data);
         $scope.special = [];

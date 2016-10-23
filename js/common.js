@@ -2,7 +2,7 @@
  * 根据url搜索一类商品
  * 结果会返回给
  */
-sasa.factory('searchResult', ['$http', function ($http) {
+biuti.factory('searchResult', ['$http', function ($http) {
     return {
         get: function (url, scope, name) {
             $http.get(url).then(function (res) {
@@ -59,7 +59,7 @@ function timeEnd(e, havaDay) {
 }
 
 //购物车
-sasa.factory('ShopCar', [function () {
+biuti.factory('ShopCar', [function () {
     return {
         add: function (userid, obj) { //参数:obj 添加的商品详情.
             var data = JSON.parse(localStorage.getItem('shopCarInfo'));
@@ -135,7 +135,7 @@ sasa.factory('ShopCar', [function () {
     }
 }])
 
-sasa.factory('Search', function () {
+biuti.factory('Search', function () {
     return {
         show: function () {
             $('.search').addClass('active');
@@ -168,7 +168,7 @@ sasa.factory('Search', function () {
 })
 
 //收藏与浏览记录
-sasa.factory('collectAndScanned', function () {
+biuti.factory('collectAndScanned', function () {
     return {
         query: function (userid, type, iscount) {
             type = type ? 'collect' : 'scanned';
@@ -245,7 +245,7 @@ sasa.factory('collectAndScanned', function () {
 
 
 
-sasa.directive('search',function(){
+biuti.directive('search',function(){
     return {
         restrict:'E',
         templateUrl:'page/directive/search.html',

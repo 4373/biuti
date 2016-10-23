@@ -1,8 +1,7 @@
-sasa.controller('carCtrl', ['$scope', 'ShopCar', function ($scope, ShopCar) {
+biuti.controller('carCtrl', ['$scope', 'ShopCar', function ($scope, ShopCar) {
 
     $scope.carData = [];
-    $scope.info.now='car'
-    console.log($scope.info.now)
+    $scope.info.now='car';
     var len = $scope.carData.length;
     var arr = [];
     var total = 0;

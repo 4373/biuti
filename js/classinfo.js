@@ -1,8 +1,8 @@
 
 
-//http://cn01.alicdn.sasa.com/
+//http://cn01.alicdn.biuti.com/
 
-sasa.controller("classinfoCtrl", ["$scope", '$http','$location','searchResult','$interval','$rootScope','ShopCar', function ($scope, $http,$location,searchResult,$interval,$rootScope,ShopCar) {
+biuti.controller("classinfoCtrl", ["$scope", '$http','$location','searchResult','$interval','$rootScope','ShopCar', function ($scope, $http,$location,searchResult,$interval,$rootScope,ShopCar) {
     $scope.searchData =[];
 
     
@@ -34,7 +34,7 @@ sasa.controller("classinfoCtrl", ["$scope", '$http','$location','searchResult','
         window.history.back();
     }
 }]);
-sasa.animate
+
 
 
 

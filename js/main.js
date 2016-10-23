@@ -4,9 +4,9 @@
  * 
  */
 
-var sasa = angular.module('sasa', ['ui.router'])
+var biuti = angular.module('biuti', ['ui.router'])
 
-sasa.config(['$stateProvider', '$urlRouterProvider', function ($stateProvider, $urlRouterProvider) {
+biuti.config(['$stateProvider', '$urlRouterProvider', function ($stateProvider, $urlRouterProvider) {
 
 	$urlRouterProvider.when('', '/main/home');
 
@@ -61,7 +61,7 @@ sasa.config(['$stateProvider', '$urlRouterProvider', function ($stateProvider, $
 
 }])
 
-sasa.controller('mainCtrl', ['$scope', '$location', 'ShopCar', '$interval','$timeout', '$http', 'collectAndScanned', function ($scope, $location, ShopCar, $interval,$timeout, $http, collectAndScanned) {
+biuti.controller('mainCtrl', ['$scope', '$location', 'ShopCar', '$interval','$timeout', '$http', 'collectAndScanned', function ($scope, $location, ShopCar, $interval,$timeout, $http, collectAndScanned) {
 
 
 	$scope.info = {

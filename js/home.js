@@ -1,4 +1,4 @@
-sasa.controller("homeCtrl", ["$scope", '$http', '$location', 'searchResult','$timeout', '$interval',  'ShopCar', '$document', function ($scope, $http, $location, searchResult,$timeout, $interval, ShopCar, $document) {
+biuti.controller("homeCtrl", ["$scope", '$http', '$location', 'searchResult','$timeout', '$interval',  'ShopCar', '$document', function ($scope, $http, $location, searchResult,$timeout, $interval, ShopCar, $document) {
 	$scope.info.now='home'
 	
 	//限时特卖
