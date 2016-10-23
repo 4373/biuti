@@ -1,0 +1,2878 @@
+@media only screen and (min-width: 320px) {
+  html {
+    /* 此时1rem = 50px; */
+    font-size: 50px;
+  }
+}
+@media only screen and (min-width: 375px) {
+  html {
+    font-size: 58.59375px;
+  }
+}
+@media only screen and (min-width: 414px) {
+  html {
+    font-size: 64.6875px;
+  }
+}
+@media only screen and (min-width: 480px) {
+  html {
+    font-size: 75px;
+  }
+}
+@media only screen and (min-width: 560px) {
+  html {
+    font-size: 87.5px;
+  }
+}
+@media only screen and (min-width: 640px) {
+  html {
+    /* 此时 1rem = 100px */
+    font-size: 100px;
+  }
+}
+@media only screen and (min-width: 720px) {
+  html {
+    font-size: 112.5px;
+  }
+}
+@media only screen and (min-width: 750px) {
+  html {
+    font-size: 117.1875px;
+  }
+}
+@media only screen and (min-width: 800px) {
+  html {
+    font-size: 125px;
+  }
+}
+@media only screen and (min-width: 960px) {
+  html {
+    font-size: 150px;
+  }
+}
+html,
+body,
+ul,
+li,
+ol,
+dl,
+dd,
+dt,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+form,
+fieldset,
+legend,
+img {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+img {
+  display: block;
+}
+body,
+a,
+input,
+button {
+  font-family: "Microsoft Yahei", "Droid Sans Fallback", "Arial", "Helvetica", "sans-serif", "宋体";
+  outline: none;
+  color: #666;
+  font-size: 0.14rem;
+  border: none;
+}
+ul,
+li,
+dt,
+dd,
+ol {
+  list-style: none;
+}
+a {
+  color: #428bca;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+.clear:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+html {
+  position: relative;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+header,
+footer,
+nav,
+div,
+section,
+article,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  box-sizing: border-box;
+}
+.home {
+  position: relative;
+  width: 100%;
+  padding-top: 0.98rem;
+  background: #f7f7f7;
+  padding-bottom: 1rem;
+}
+.home .home-header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 30;
+  background: #fff;
+  height: 0.98rem;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.6);
+}
+.home .home-header h1 {
+  width: 100%;
+  height: 100%;
+  line-height: 1rem;
+  text-align: center;
+  font-weight: normal;
+}
+.home .home-header h1 img {
+  display: inline-block;
+  width: 1.46rem;
+  vertical-align: middle;
+}
+.home .home-header h1 span {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  font-size: 0.4rem;
+}
+.home .home-header h1 span:nth-of-type(1) {
+  left: 0.2rem;
+  color: #909090;
+}
+.home .home-header h1 span:nth-of-type(2) {
+  right: 0.2rem;
+  color: #393939;
+}
+.home .home-banner {
+  width: 100%;
+  height: 3.2rem;
+}
+.home .home-banner .swiper-wrapper {
+  height: 100%;
+}
+.home .home-banner img {
+  width: 100%;
+  height: 3.2rem;
+}
+.home .home-nav {
+  width: 100%;
+  background: #fff;
+  padding-bottom: 0.3rem;
+}
+.home .home-nav ul {
+  padding: 0 3%;
+}
+.home .home-nav ul li {
+  float: left;
+  width: 20%;
+}
+.home .home-nav ul li a {
+  display: block;
+}
+.home .home-nav ul li a dl {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+.home .home-nav ul li a dl dt {
+  width: 0.73rem;
+  height: 0.73rem;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 0.73rem;
+  margin: 0.18rem auto;
+  color: #fff;
+  font-size: 0.45rem;
+  font-weight: normal;
+}
+.home .home-nav ul li a dl dd {
+  font-size: 0.19rem;
+  color: #2a2a2a;
+}
+.home .home-nav ul li:nth-of-type(1) dt {
+  background: #e93f7d;
+}
+.home .home-nav ul li:nth-of-type(2) dt {
+  background: #77cb8d;
+}
+.home .home-nav ul li:nth-of-type(3) dt {
+  background: #c4e187;
+}
+.home .home-nav ul li:nth-of-type(4) dt {
+  background: #a497dc;
+}
+.home .home-nav ul li:nth-of-type(5) dt {
+  background: #f1dc69;
+}
+.home .home-nav ul li:nth-of-type(6) dt {
+  background: #fead6c;
+}
+.home .home-nav ul li:nth-of-type(7) dt {
+  background: #fbc1e9;
+}
+.home .home-nav ul li:nth-of-type(8) dt {
+  background: #a8dff4;
+}
+.home .home-nav ul li:nth-of-type(9) dt {
+  background: #5c88b9;
+}
+.home .home-nav ul li:nth-of-type(10) dt {
+  background: #dadada;
+}
+.home .home-list {
+  width: 100%;
+  margin-top: 0.12rem;
+}
+.home .home-list .hd {
+  line-height: 0.7rem;
+  padding: 0 3%;
+  font-size: 0.2rem;
+  color: #010101;
+  background: #fff;
+}
+.home .home-list .hd .left h3 {
+  font-weight: normal;
+  color: #d62666;
+  display: inline-block;
+}
+.home .home-list .hd .left b {
+  font-weight: normal;
+  margin: 0 0.1rem;
+}
+.home .home-list .hd .left i {
+  font-style: normal;
+}
+.home .home-list .hd .right {
+  color: #a5a5a5;
+  font-size: 0.2rem;
+}
+.home .home-list .hd .right span {
+  font-size: 0.2rem;
+}
+.home .home-list .hd .more {
+  font-size: 0.2rem;
+}
+.home .home-timeslist ul {
+  width: 100%;
+}
+.home .home-timeslist ul li {
+  width: 100%;
+  position: relative;
+  font-size: 0.20rem;
+  margin-bottom: 0.05rem;
+  height: 3.8rem;
+}
+.home .home-timeslist ul li img {
+  width: 100%;
+}
+.home .home-timeslist ul li p {
+  width: 47%;
+  position: absolute;
+  left: 50%;
+  top: 0.6rem;
+  font-size: 0.20rem;
+  color: #141412;
+}
+.home .home-timeslist ul li .price1 {
+  margin-bottom: 0.3rem;
+}
+.home .home-timeslist ul li .jg {
+  position: absolute;
+  left: 50%;
+  bottom: 0.9rem;
+}
+.home .home-timeslist ul li .jg .discount {
+  display: inline-block;
+  width: 0.62rem;
+  height: 0.28rem;
+  background: #ef3f7f;
+  font-size: 0.2rem;
+  text-align: center;
+  line-height: 0.28rem;
+  color: #fff;
+}
+.home .home-timeslist ul li .jg .nowprice {
+  color: #ef3f7f;
+  font-size: 0.26rem;
+}
+.home .home-timeslist ul li .jg del {
+  font-size: 0.2rem;
+  color: #010101;
+}
+.home .home-timeslist ul li .add-car {
+  position: absolute;
+  right: 0.5rem;
+  bottom: 0.5rem;
+  width: 0.4rem;
+  height: 0.4rem;
+  line-height: 0.4rem;
+  background: white;
+  border-radius: 50%;
+  text-align: center;
+  color: #ed3a7c;
+  font-size: 0.3rem;
+}
+.home .home-timeslist .more {
+  background: #fff;
+  text-align: center;
+  line-height: 0.65rem;
+  font-size: 0.2rem;
+  color: #010101;
+}
+.home .home-hotlist {
+  width: 100%;
+  position: relative;
+}
+.home .home-hotlist .left p {
+  font-size: 0.2rem;
+  color: #ed3a7c;
+}
+.home .home-hotlist .hd {
+  height: 0.7rem;
+  margin-bottom: 0.8rem;
+}
+.home .home-hotlist .tab {
+  z-index: 3;
+  background: white;
+  position: absolute;
+  top: 0.7rem;
+  width: 100%;
+  height: 0.8rem;
+  border-top: 1px solid #f1f1f1;
+  border-bottom: 1px solid #f1f1f1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.home .home-hotlist .tab.fixed {
+  position: fixed;
+  top: 0.96rem;
+}
+.home .home-hotlist .tab-item {
+  display: inline-block;
+  width: 20%;
+  height: 0.56rem;
+  background: white;
+  line-height: 0.56rem;
+  text-align: center;
+  box-sizing: border-box;
+  font-size: 0.22rem;
+  color: #303030;
+  border-right: 1px solid #f1f1f1;
+}
+.home .home-hotlist .tab-item.active {
+  color: #ed3a7c;
+}
+.home .home-hotlist .hot-list {
+  padding-left: 2%;
+}
+.home .home-hotlist .hot-list li {
+  width: 48%;
+  margin-right: 2%;
+  margin-top: 2%;
+  position: relative;
+  float: left;
+  background: #fff;
+}
+.home .home-hotlist .hot-list li img {
+  width: 70%;
+  height: 2.66rem;
+  margin: 0 auto;
+}
+.home .home-hotlist .hot-list li .producttagname {
+  width: 0.54rem;
+  height: 0.54rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url(../img/J_03.png);
+  background-size: 100% 100%;
+}
+.home .home-hotlist .hot-list li .placename {
+  box-sizing: content-box;
+  width: 0.55rem;
+  height: 0.35rem;
+  position: absolute;
+  top: 0.1rem;
+  right: 0.1rem;
+  font-size: 0.2rem;
+  text-align: center;
+  line-height: 0.35rem;
+  border: 1px solid #9b9b9b;
+  border-radius: 0.05rem;
+  color: #000;
+}
+.home .home-hotlist .hot-list li .home-hotinfo {
+  width: 100%;
+  height: 1.45rem;
+  padding: 0 0.15rem;
+  overflow: hidden;
+}
+.home .home-hotlist .hot-list li .home-hotinfo p {
+  font-size: 0.2rem;
+  height: 0.8rem;
+  color: #010101;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.home .home-hotlist .hot-list li .home-hotinfo p span:nth-of-type(1) {
+  margin-right: 0.05rem;
+}
+.home .home-hotlist .hot-list li .home-hotinfo .jg {
+  margin-top: 0.1rem;
+}
+.home .home-hotlist .hot-list li .home-hotinfo .jg span:nth-of-type(1) {
+  font-size: 0.24rem;
+  color: #ec3f7e;
+  margin-right: 0.05rem;
+}
+.home .home-hotlist .hot-list li .home-hotinfo .jg span:nth-of-type(2) {
+  font-size: 0.20rem;
+  color: #be955f;
+}
+.home .home-hotlist .hot-list li .home-hotinfo .jg del {
+  font-size: 0.20rem;
+  color: #aab0b0;
+  margin-right: 0.05rem;
+}
+.list {
+  position: relative;
+  overflow: hidden;
+  height: 100%;
+}
+.list .header {
+  height: 1rem;
+  line-height: 1rem;
+  text-align: center;
+  position: relative;
+  box-sizing: border-box;
+  border-bottom: solid #eee 1px;
+}
+.list .header .title {
+  text-align: center;
+  font-size: 0.3rem;
+  color: #303030;
+  font-weight: normal;
+}
+.list .header .icons {
+  font-size: 0.4rem;
+  right: 0.2rem;
+  color: #303030;
+  top: 0;
+  position: absolute;
+}
+.list .top {
+  position: relative;
+  border-bottom: solid 1px #f2f2f2;
+  margin-bottom: 1px;
+  height: 0.75rem;
+  line-height: 0.75rem;
+}
+.list .top .active {
+  color: #ec4a85;
+}
+.list .top .line {
+  background: #f1f1f1;
+  position: absolute;
+  width: 0.01rem;
+  height: 0.4rem;
+  left: 3.2rem;
+  top: 0.16rem;
+}
+.list .top .title {
+  font-size: 0.25rem;
+  float: left;
+  width: 50%;
+  text-align: center;
+  box-sizing: border-box;
+}
+.list .content {
+  height: 100%;
+  margin-top: -1.76rem;
+  padding-bottom: 1.76rem;
+}
+.list .content .goodslist {
+  -webkit-transition: -webkit-transform 0.3s;
+  transition: -webkit-transform 0.3s;
+  transition: transform 0.3s;
+  transition: transform 0.3s, -webkit-transform 0.3s;
+  height: 100%;
+  font-size: 0.23rem;
+}
+.list .content .goodslist .side {
+  height: 100%;
+  overflow-y: auto;
+  box-sizing: border-box;
+  width: 30%;
+  background: #f7f7f7;
+  color: #252525;
+  line-height: 0.73rem;
+  padding-top: 1px;
+}
+.list .content .goodslist .side .active {
+  background: white;
+}
+.list .content .goodslist .side .active:after {
+  position: absolute;
+  content: "";
+  width: 0.05rem;
+  background: #e73f7c;
+  height: 100%;
+  box-shadow: 0.01rem 0.01rem 0 #b9688e;
+  left: 0;
+}
+.list .content .goodslist .side .nav {
+  position: relative;
+  padding-left: 0.18rem;
+  box-sizing: border-box;
+  border-bottom: solid 0.02rem #efefef;
+}
+.list .content .goodslist .maincontent {
+  width: 70%;
+  color: #8b8b8b;
+  height: 100%;
+  overflow-y: auto;
+  line-height: 0.73rem;
+  padding-bottom: 1.76rem;
+  padding-top: 1px;
+}
+.list .content .goodslist .maincontent .detaillist {
+  display: none;
+}
+.list .content .goodslist .maincontent .show {
+  display: block;
+}
+.list .content .goodslist .maincontent p {
+  box-sizing: border-box;
+  padding: 0 0.18rem 0;
+  border-bottom: solid 0.02rem #efefef;
+}
+.list .content .goodslist .maincontent p .icons {
+  font-size: 0.25rem;
+  color: #8B8B8B;
+}
+.list .content .goodslist .maincontent .hot {
+  color: #c5a378;
+}
+.list .content .bannerlist {
+  height: 100%;
+  overflow-y: auto;
+}
+.list .content .bannerlist .navbox {
+  position: fixed;
+  right: 0.2rem;
+  top: 2rem;
+  z-index: 2;
+}
+.list .content .bannerlist .navbox .bannernav {
+  font-size: 0.16rem;
+  text-align: center;
+  display: block;
+  padding: 1px 2px;
+}
+.list .content .bannerlist .bannercontent {
+  line-height: 0.9rem;
+  position: relative;
+}
+.list .content .bannerlist .bannercontent .banners {
+  border-bottom: solid 0.01rem #f2f2f2;
+  font-size: 0.2rem;
+  color: #2e2e2e;
+  padding-left: 0.25rem;
+}
+.list .content .bannerlist .bannercontent .banners .special {
+  font-size: 0.15rem;
+  color: #eb236c;
+  border: solid 0.02rem #eb236c;
+  margin-left: 0.1rem;
+  font-weight: bold;
+  padding: 0 0.05rem;
+  box-shadow: inset 0 0 0.01rem #ff88b4;
+  box-shadow: 0.01rem 0.01rem 0 #ffabce;
+  border-radius: 0.03rem;
+  height: 0.23rem;
+  text-align: center;
+  line-height: 0.23rem;
+  display: inline-block;
+}
+.list .content .bannerlist .bannercontent .letters {
+  background: #F7F7F7;
+  height: 0.64rem;
+  line-height: 0.64rem;
+  padding-left: 0.25rem;
+  color: #959595;
+  font-size: 0.2rem;
+  display: block;
+}
+.my {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.my .main .myLogo {
+  position: relative;
+  height: 2.67rem;
+  box-sizing: border-box;
+  background-image: url(../img/bg0.png);
+  background-size: 100%;
+}
+.my .main .myLogo ul {
+  position: absolute;
+  left: 50%;
+  bottom: 0.42rem;
+  overflow: hidden;
+  margin-left: -1.49rem;
+}
+.my .main .myLogo ul li {
+  height: 0.42rem;
+  line-height: 0.42rem;
+  padding: 0 0.48rem;
+  float: left;
+  color: white;
+  font-size: 0.26rem;
+}
+.my .main .myLogo ul li:nth-child(1) {
+  border-right: 1px solid #ffe1ff;
+}
+.my .main .myLogo ul li:nth-child(2) {
+  border-left: 1px solid #913e6c;
+}
+.my .main .myLogo dl {
+  position: absolute;
+  bottom: 0.4rem;
+  left: 50%;
+  margin-left: -1rem;
+  padding: 0;
+  width: 2rem;
+}
+.my .main .myLogo dl dt {
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 auto;
+}
+.my .main .myLogo dl dt img {
+  width: 100%;
+  height: 100%;
+}
+.my .main .myLogo dl dd {
+  font-size: 0.2rem;
+  margin: 0 auto;
+  text-align: center;
+  height: 0.6rem;
+  line-height: 0.6rem;
+  color: white;
+  width: 1.8rem;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.my .main .myLogo a {
+  font-size: 0.34rem;
+  position: absolute;
+  display: block;
+  width: 0.66rem;
+  height: 0.66rem;
+  border-radius: 0.33rem;
+  color: white;
+  text-align: center;
+  line-height: 0.66rem;
+  opacity: 0.3;
+  top: 0.62rem;
+  background: black;
+}
+.my .main .myLogo a:nth-child(1) {
+  right: 1.34rem;
+}
+.my .main .myLogo a:nth-child(2) {
+  right: 0.41rem;
+}
+.my .main .myLogo.active {
+  background-image: url(../img/bg0.png) ! important;
+}
+.my .main .myList {
+  border-top: 1px solid #f9deed;
+  border-bottom: 1px solid #f5f5f5;
+  background: white;
+  padding: 0.08rem 0;
+  margin-bottom: 0.28rem;
+  font-size: 0.18rem;
+}
+.my .main .myList ul {
+  margin: 0 auto;
+  width: 5.17rem;
+  overflow: hidden;
+}
+.my .main .myList ul li {
+  height: 0.68rem;
+  float: left;
+  width: 1.71rem;
+  border-left: 0.01rem solid #f2f2f2;
+}
+.my .main .myList ul li span {
+  margin-top: 0.06rem;
+  display: block;
+  text-align: center;
+}
+.my .main .myList ul li div {
+  line-height: 0.14rem;
+  text-align: center;
+  margin: 0.1rem 0;
+}
+.my .main .myList ul li:nth-child(1) {
+  border: none;
+}
+.my .main .myNav {
+  border-top: 1px solid #f1f1f1;
+  border-bottom: 1px solid #ededed;
+}
+.my .main .myNav ul {
+  background: white;
+  overflow: hidden;
+  padding-top: 0.13rem;
+  padding-bottom: 0.18rem;
+  width: 100%;
+  font-size: 0.18rem;
+}
+.my .main .myNav ul li {
+  width: 20%;
+  float: left;
+  text-align: center;
+}
+.my .main .myNav ul li a {
+  font-size: 0.30rem;
+  color: black;
+}
+.my .main .myNav ul li p {
+  margin-top: 0.12rem;
+  font-size: 0.18rem;
+}
+.my .main .maMain a {
+  display: block;
+  width: 0.48rem;
+  height: 0.48rem;
+  font-size: 0.32rem;
+  color: white;
+  text-align: center;
+  line-height: 0.48rem;
+  border-radius: 0.03rem;
+  float: left;
+  margin: 0 0.3rem 0 0.35rem;
+}
+.my .main .maMain li {
+  border-bottom: 1px solid #ededed;
+  background: white;
+  height: 0.48rem;
+  padding: 0.24rem 0;
+}
+.my .main .maMain li:nth-child(1) a {
+  background: #00bae2;
+}
+.my .main .maMain li:nth-child(2) a {
+  background: #fe8e69;
+}
+.my .main .maMain li:nth-child(3) a {
+  background: #00bae2;
+}
+.my .main .maMain li:nth-child(4) a {
+  background: #ff7276;
+}
+.my .main .maMain p {
+  float: left;
+  font-size: 0.22rem;
+  line-height: 0.48rem;
+}
+.car {
+  position: relative;
+  background: #f7f7f7;
+  width: 100%;
+  height: 100%;
+}
+.car header {
+  height: 1rem;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  background: white;
+  box-shadow: 0 0 0.03rem rgba(0, 0, 0, 0.3);
+}
+.car header h2 {
+  height: 1rem;
+  text-align: center;
+  line-height: 1rem;
+  color: #333;
+  font-size: 0.32rem;
+}
+.car header span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translateX(0.5rem) translateY(-50%);
+          transform: translateX(0.5rem) translateY(-50%);
+  height: 0.4rem;
+  padding: 0 0.14rem;
+  border-radius: 0.2rem;
+  background: #ed524d;
+  text-align: center;
+  line-height: 0.4rem;
+  color: white;
+  font-size: 0.22rem;
+}
+.car .tip {
+  height: 0.42rem;
+  box-sizing: content-box;
+  line-height: 0.42rem;
+  border-top: 1rem solid #eee;
+  padding-left: 0.3rem;
+}
+.car .card-box {
+  background: white;
+}
+.car .card-box .card {
+  width: 100%;
+  height: 1.64rem;
+  overflow: hidden;
+}
+.car .card-box .card .img-box {
+  height: 1.64rem;
+  width: 1.64rem;
+  float: left;
+  vertical-align: middle;
+}
+.car .card-box .card .img-box img {
+  width: 80%;
+  height: 80%;
+  outline: 0;
+  border: none;
+  margin: 10% auto 0;
+}
+.car .card-box .card .text-box {
+  overflow: hidden;
+  height: 100%;
+  font-size: 0.22rem;
+  padding: 0.24rem  0.40rem 0.24rem 0;
+}
+.car .card-box .card .text-box .title {
+  line-height: 0.29rem;
+  height: 0.58rem;
+  color: #333;
+}
+.car .card-box .card .text-box .box {
+  margin-top: 0.15rem;
+}
+.car .card-box .card .text-box .ctrl {
+  height: 0.46rem;
+  float: left;
+  border: 1px solid  #dededc;
+}
+.car .card-box .card .text-box .ctrl a {
+  float: left;
+  width: 0.48rem;
+  height: 0.46rem;
+  font-size: 0.23rem;
+  text-align: center;
+  line-height: 0.46rem;
+  color: #ed524d;
+  box-sizing: border-box;
+}
+.car .card-box .card .text-box .ctrl input {
+  float: left;
+  width: 0.58rem;
+  height: 100%;
+  font-size: 0.16rem;
+  padding: 0;
+  text-align: center;
+  border-left: 1px solid #dededc;
+  border-right: 1px solid #dededc;
+  color: #333;
+}
+.car .card-box .card .text-box .price {
+  float: right;
+  margin-right: -0.2rem;
+  line-height: 0.46rem;
+  color: #ed524d;
+}
+.car .tip2 {
+  height: 1.4rem;
+  border-top: 1px solid #dededc;
+  box-sizing: content-box;
+  padding: 0.26rem 0.32rem 0;
+  background: white;
+  border-bottom: 2.32rem solid #f7f7f7;
+}
+.car .tip2 span {
+  display: inline-block;
+  border-radius: 0.06rem;
+  padding: 0.12rem 0.1rem;
+  color: white;
+  font-size: 0.20rem;
+  background: #6ed1bc;
+}
+.car .tip2 p {
+  margin-top: 0.2rem;
+  font-size: 0.2rem;
+}
+.car .to-buy {
+  height: 1rem;
+  width: 100%;
+  position: fixed;
+  bottom: 0.9rem;
+  box-shadow: 0 0 0.03rem rgba(0, 0, 0, 0.3);
+}
+.car .all {
+  width: 50%;
+  background: #191919;
+  color: white;
+  height: 1rem;
+  float: left;
+  padding-top: 0.2rem;
+}
+.car .all p {
+  height: 0.32rem;
+  line-height: 0.32rem;
+  font-size: 0.2rem;
+  text-align: center;
+}
+.car .goto {
+  width: 50%;
+  background: #eb3e7d;
+  text-align: center;
+  height: 1rem;
+  line-height: 1rem;
+  color: white;
+  font-size: 0.36rem;
+  float: left;
+}
+.car .nothing {
+  background-image: url(../img/gouwuche.png);
+  width: 100%;
+  height: 60%;
+  background-size: 100%;
+  margin-top: 1rem;
+  background-repeat: no-repeat;
+}
+.limit {
+  position: relative;
+}
+.limit .limit-main .header {
+  height: 1rem;
+  line-height: 1rem;
+  text-align: center;
+  z-index: 10;
+  width: 100%;
+  background: white;
+  top: 0;
+  position: fixed;
+  box-sizing: border-box;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.6);
+}
+.limit .limit-main .header .title {
+  text-align: center;
+  font-size: 0.3rem;
+  color: #303030;
+  font-weight: normal;
+}
+.limit .limit-main .header .icons {
+  font-size: 0.4rem;
+  right: 0.2rem;
+  color: #303030;
+  top: 0;
+  position: absolute;
+}
+.limit .limit-main .limittime {
+  z-index: 10;
+  width: 100%;
+  position: fixed;
+  top: 1rem;
+  background: #eb3e7d;
+  height: 0.75rem;
+  border-top: solid 0.01rem #db306e;
+  border-bottom: solid 0.01rem #db306e;
+  line-height: 0.75rem;
+  box-shadow: 0 0.01rem 0 #dcc1d5;
+  color: white;
+  font-size: 0.24rem;
+  padding-left: 0.27rem;
+  padding-right: 0.6rem;
+}
+.limit .limit-main .limittime .time {
+  margin-left: 0.08rem;
+}
+.limit .limit-main .contentbox {
+  margin-top: 1.75rem;
+  margin-bottom: 0.9rem;
+}
+.limit .limit-main .contentbox .contentlist .content {
+  border-bottom: solid 0.01rem white;
+  border-top: solid 0.01rem white;
+  box-sizing: border-box;
+  padding: 0.5rem 0.4rem;
+  height: 3.8rem;
+  position: relative;
+  background-position: left top;
+  background-size: 100%;
+}
+.limit .limit-main .contentbox .contentlist .content .imgbox {
+  width: 50%;
+  height: 100%;
+}
+.limit .limit-main .contentbox .contentlist .content .info {
+  width: 50%;
+  height: 100%;
+  position: relative;
+}
+.limit .limit-main .contentbox .contentlist .content .info .title {
+  font-size: 0.24rem;
+  color: #0b0809;
+}
+.limit .limit-main .contentbox .contentlist .content .info .priceinfo {
+  position: absolute;
+  top: 1.5rem;
+}
+.limit .limit-main .contentbox .contentlist .content .info .priceinfo .discount {
+  vertical-align: middle;
+  width: 0.62rem;
+  height: 0.26rem;
+  background: -webkit-linear-gradient(top, #eb3e7d, #ed447f);
+  background: linear-gradient(to bottom, #eb3e7d, #ed447f);
+  color: white;
+  box-shadow: 0.01rem -0.01rem 0 #e8acbf;
+  display: inline-block;
+  text-align: center;
+  line-height: 0.26rem;
+  font-size: 0.19rem;
+}
+.limit .limit-main .contentbox .contentlist .content .info .priceinfo .price {
+  vertical-align: middle;
+  font-size: 0.3rem;
+  color: #ee3e7e;
+}
+.limit .limit-main .contentbox .contentlist .content .info .oldprice {
+  position: absolute;
+  top: 2rem;
+  color: #1a1617;
+  font-size: 0.2rem;
+  margin-top: 0.1rem;
+  display: block;
+}
+.limit .limit-main .contentbox .contentlist .content .info .iconbox {
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  background: white;
+  text-align: center;
+  line-height: 0.5rem;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin-top: -0.1rem;
+}
+.limit .limit-main .contentbox .contentlist .content .info .iconbox .icons {
+  font-size: 0.3rem;
+  color: #d22b6a;
+}
+.limit .limit-main .contentbox .contentlist .content .empty .describle {
+  position: absolute;
+  left: 50%;
+  font-size: 0.2rem;
+  color: black;
+  bottom: 0.5rem;
+}
+.limit .limit-main .contentbox .contentlist .content .empty .notice {
+  bottom: 0.4rem;
+  width: 1.3rem;
+  position: absolute;
+  right: 0;
+  height: 0.4rem;
+  text-align: center;
+  line-height: 0.4rem;
+  color: white;
+  box-sizing: border-box;
+  font-size: 0.2rem;
+  background: #f2979c ;
+  border: solid 0.01rem #f0858b;
+}
+.limit .limit-main .contentbox .contentlist .content .empty .notice .icons {
+  margin-left: 0.05rem;
+  font-size: 0.2rem;
+}
+.limit .limit-main .contentbox .contentlist .content .imgbox1 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+}
+.limit .limit-main .contentbox .contentlist .content .imgbox1 img {
+  width: 100%;
+  height: 100%;
+}
+.limit .limit-main .contentbox .mainlist .content {
+  border-bottom: solid 0.01rem #eaeaea;
+  box-shadow: 0 0.01rem #f4f4f4;
+}
+.limit .limit-main .contentbox .mainlist .content .imgbox img {
+  width: 100%;
+  height: 100%;
+}
+.class-info {
+  position: relative;
+}
+.class-info header {
+  width: 100%;
+  height: 1rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: white;
+  line-height: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  z-index: 20;
+  border-bottom: 1px solid #dad9d7;
+}
+.class-info header .icon-zuojiantou {
+  float: left;
+  height: 100%;
+  width: 1rem;
+  text-align: center;
+  font-size: 0.44rem;
+  color: #939393;
+  margin-right: 0.5rem;
+}
+.class-info header .search {
+  float: left;
+  height: 0.6rem;
+  width: 60%;
+  line-height: 0.6rem;
+  border-bottom: 1px solid #eeeeee;
+}
+.class-info header .search i {
+  float: left;
+  width: 0.6rem;
+  height: 0.6rem;
+  line-height: 0.6rem;
+  color: #939393;
+  font-size: 0.44rem;
+  text-align: center;
+}
+.class-info .loading {
+  width: 100%;
+  height: 1.7rem;
+}
+.class-info .tab {
+  z-index: 19;
+  position: fixed;
+  top: 1rem;
+  left: 0;
+  background: white;
+  width: 100%;
+  height: 0.7rem;
+  box-shadow: 0 0 0.05rem rgba(0, 0, 0, 0.6);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.class-info .tab-item {
+  display: inline-block;
+  width: 20%;
+  height: 0.56rem;
+  background: white;
+  line-height: 0.56rem;
+  text-align: center;
+  box-sizing: border-box;
+  font-size: 0.2rem;
+  color: #303030;
+  border-right: 1px solid #f1f1f1;
+}
+.class-info .tab-item.active {
+  color: #ed3a7c;
+}
+.class-info .card-box .card {
+  height: 2.3rem;
+  width: 100%;
+  background: white;
+  border-bottom: 1px solid #e6e2e7;
+  position: relative;
+}
+.class-info .card-box .card .img-box {
+  float: left;
+  height: 100%;
+  width: 2.3rem;
+  padding: 0.3rem;
+  background: white;
+}
+.class-info .card-box .card .img-box img {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+.class-info .card-box .card .text-box {
+  overflow: hidden;
+  height: 100%;
+  padding: 0.18rem  1.2rem 0.18rem 0 ;
+  color: #303030;
+  font-size: 0.2rem;
+}
+.class-info .card-box .card .text-box .storeName {
+  line-height: 0.34rem;
+  height: 0.34rem;
+}
+.class-info .card-box .card .text-box .name {
+  line-height: 0.22rem;
+}
+.class-info .card-box .card .text-box .time {
+  line-height: 0.42rem;
+  height: 0.42rem;
+  font-size: 0.16rem;
+}
+.class-info .card-box .card .text-box .new-price {
+  height: 0.4rem;
+  line-height: 0.4rem;
+  font-size: 0.24rem;
+  color: #ed3a7c;
+}
+.class-info .card-box .card .text-box .old-price {
+  height: 0.32rem;
+  line-height: 0.32rem;
+  color: #bcbcbc;
+}
+.class-info .card-box .card .text-box .b4 {
+  margin-right: 0.1rem;
+}
+.class-info .card-box .card .text-box .only {
+  color: #bf9b5f;
+}
+.class-info .card-box .card .from {
+  width: 0.55rem;
+  height: 0.42rem;
+  border: 1px solid #9b9b9b;
+  display: inline-block;
+  text-align: center;
+  line-height: 0.42rem;
+  font-size: 0.2rem;
+  border-radius: 0.05rem;
+  position: absolute;
+  top: 0.18rem;
+  right: 0.18rem;
+}
+.class-info .card-box .card .add-car {
+  width: 0.55rem;
+  height: 0.42rem;
+  text-align: center;
+  line-height: 0.42rem;
+  position: absolute;
+  bottom: 0.18rem;
+  right: 0.18rem;
+  color: #ed3a7c;
+  display: inline-block;
+  font-size: 0.34rem;
+}
+.class-info .card-box .card .mark {
+  width: 0.54rem;
+  height: 0.54rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url(../img/J_03.png);
+  background-size: 100% 100%;
+}
+.class-info .card-box .card.ng-enter {
+  -webkit-transform: rotateX(90deg);
+          transform: rotateX(90deg);
+}
+.class-info .card-box .card.ng-enter-active {
+  -webkit-transform: rotateX(0deg);
+          transform: rotateX(0deg);
+}
+.class-info .card-box .card.ng-enter-stagger {
+  -webkit-transition-delay: 0.1s;
+          transition-delay: 0.1s;
+  -webkit-transition-duration: 0s;
+          transition-duration: 0s;
+}
+.main {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  border-bottom: 0.9rem transparent solid;
+}
+.footer {
+  height: 0.9rem;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  z-index: 100;
+}
+.footer .navbox {
+  background: #383838;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  border-top: solid 0.01rem #2e2e2e;
+  box-shadow: 0 0.01rem 0 #4c4c4c;
+  padding-top: 0.05rem;
+}
+.footer .navbox .navs {
+  float: left;
+  text-align: center;
+  font-size: 0.2rem;
+  color: white;
+  position: relative;
+  width: 20%;
+  box-sizing: border-box;
+}
+.footer .navbox .navs .icons {
+  font-size: 0.4rem;
+}
+.footer .navbox .active {
+  color: #ff418e;
+}
+.footer .navbox .shopCarCount {
+  height: 0.3rem;
+  line-height: 0.3rem;
+  min-width: 0.3rem;
+  background: #ff418e;
+  border-radius: 50%;
+  position: absolute;
+  right: 0.1rem;
+  top: 0.1rem;
+  color: white;
+}
+.search.active {
+  left: 0;
+}
+.search {
+  background: #f7f7f7;
+  height: 100%;
+  position: fixed;
+  width: 100%;
+  z-index: 10000;
+  top: 0;
+  left: 100%;
+  overflow: hidden;
+  -webkit-transition: 0.3s left;
+  transition: 0.3s left;
+}
+.search .search-bar {
+  width: 100%;
+  height: 0.99rem;
+  background: #fff;
+  border-bottom: #ddd solid 0.01rem;
+  line-height: 1rem;
+  position: relative;
+}
+.search .search-bar .search-btn {
+  position: absolute;
+  left: 3%;
+  font-size: 0.36rem;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+.search .search-bar input {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  height: 50%;
+  width: 75%;
+  font-size: 0.24rem;
+}
+.search .search-bar span {
+  position: absolute;
+  right: 7%;
+  font-size: 0.24rem;
+  color: #010101;
+}
+.search .search-main i {
+  float: right;
+  margin-right: 4%;
+  width: 0.66rem;
+  height: 0.66rem;
+  font-style: normal;
+  text-shadow: 0 0 10px #dbb58b;
+  text-align: center;
+  color: #dbb58b;
+}
+.search .search-main h4 {
+  padding-left: 4.5%;
+  height: 0.66rem;
+  line-height: 0.66rem;
+  font-size: 0.24rem;
+  color: #9d9d9d;
+}
+.search .search-main ul {
+  background: #fff;
+  padding-top: 0.1rem;
+  padding-left: 4.5%;
+  padding-bottom: 0.28rem;
+}
+.search .search-main ul li {
+  border: 1px solid #dbb58b;
+  border-radius: 0.08rem;
+  margin-right: 0.18rem;
+  margin-top: 0.18rem;
+}
+.search .search-main ul li a {
+  display: inline-block;
+  padding: 0.1rem 0.16rem ;
+  color: #dbb58b;
+  font-size: 0.20rem;
+}
+.login.active {
+  left: 0;
+}
+.login {
+  -webkit-transition: 0.3s left;
+  transition: 0.3s left;
+  height: 100%;
+  position: fixed;
+  width: 100%;
+  z-index: 10000;
+  top: 0;
+  left: 100%;
+  overflow: hidden;
+  background: #f7f7f7;
+}
+.login .dhead {
+  padding: 0.33rem 0.24rem 0.26rem 0.24rem;
+  border-bottom: 0.01rem solid #dddddd;
+}
+.login .dhead a {
+  display: block;
+  font-size: 0.47rem;
+  color: black;
+  float: left;
+}
+.login .dhead p {
+  font-size: 0.3rem;
+  color: #cd4b7b;
+  text-align: center;
+  line-height: 0.47rem;
+}
+.login .dhead span {
+  font-size: 0.28rem;
+  color: black;
+  float: right;
+  line-height: 0.47rem;
+}
+.login .dkong {
+  background: #F7F7F7;
+  height: 0.17rem;
+  border-top: 0.01rem solid #ebebeb;
+  border-bottom: 0.01rem solid #efefef;
+}
+.login .ddenglu {
+  width: 100%;
+  text-align: center;
+}
+.login .ddenglu .active {
+  background: #c49a60 !important;
+}
+.login .ddenglu input {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0 1rem 0 0.28rem;
+  height: 0.8rem;
+  font-size: 0.26rem;
+  line-height: 0.8rem;
+}
+.login .ddenglu input:nth-of-type(1) {
+  border-bottom: 1px solid #f0f0f0;
+}
+.login .ddenglu input:nth-of-type(2) {
+  background: #d2d2d2;
+  padding: 0 10%;
+  text-align: center;
+  border-radius: 0.03rem;
+  width: 90%;
+}
+.login .ddenglu .mima {
+  position: relative;
+}
+.login .ddenglu .mima a {
+  position: absolute;
+  bottom: 0.18rem;
+  right: 0.32rem;
+  color: black;
+  font-size: 0.23rem;
+  display: block;
+  float: right;
+  width: 0.68rem;
+  height: 0.5rem;
+  line-height: 0.5rem;
+  text-align: center;
+  border-radius: 0.06rem;
+  background: #F7F7F7;
+  border: 1px solid #eeeeee;
+}
+.login .ddenglu .wangji {
+  display: block;
+  padding-right: 0.24rem;
+  text-align: right;
+  height: 1.50rem;
+  line-height: 1.5rem;
+  font-size: 0.22rem;
+}
+.register.active {
+  left: 0;
+}
+.register {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  position: fixed;
+  background: white;
+  top: 0;
+  left: 100%;
+  width: 100%;
+  height: 100%;
+  z-index: 10400;
+  overflow: hidden;
+}
+.register .zhead {
+  padding: 0.33rem 0.24rem 0.26rem 0.24rem;
+  border-bottom: 1px solid #efefef;
+}
+.register .zhead a {
+  display: block;
+  font-size: 0.47rem;
+  color: black;
+  float: left;
+}
+.register .zhead p {
+  font-size: 0.3rem;
+  color: black;
+  text-align: center;
+  line-height: 0.47rem;
+}
+.register .zkong {
+  background: #F7F7F7;
+  height: 0.17rem;
+  border-top: 0.01rem solid #ebebeb;
+  border-bottom: 0.01rem solid #efefef;
+}
+.register .zdenglu {
+  text-align: center;
+}
+.register .zdenglu .active {
+  background: #c49a60 !important ;
+}
+.register .zdenglu .get {
+  position: absolute ;
+  padding: 0 10px !important;
+  width: auto !important;
+  top: -0.7rem;
+  width: 0.5rem;
+  right: 0.32rem;
+  color: white;
+  font-size: 0.24rem;
+  display: block;
+  float: right;
+  height: 0.59rem;
+  line-height: 0.59rem;
+  border-radius: 0.06rem !important;
+  background: #c49a60 !important;
+}
+.register .zdenglu input {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0 2rem 0 0.28rem;
+  height: 0.8rem;
+  font-size: 0.26rem;
+  line-height: 0.8rem;
+}
+.register .zdenglu input:nth-of-type(1) {
+  border-bottom: 1px solid #f0f0f0;
+}
+.register .zdenglu input:nth-of-type(2) {
+  background: #d2d2d2;
+  width: 90%;
+  padding: 0 1.2rem;
+  border-radius: 0.03rem;
+}
+.register .zdenglu .mima {
+  position: relative;
+}
+.register .zdenglu .wangji {
+  padding-left: 0.24rem;
+}
+.register .zdenglu .wangji i.c {
+  color: #d2d2d2;
+}
+.register .zdenglu .wangji i {
+  margin-right: 0.22rem;
+  display: block;
+  width: 0.4rem;
+  height: 0.4rem;
+  text-align: center;
+  line-height: 0.4rem;
+  font-size: 0.3rem;
+  color: #68d4bd;
+  float: left;
+  margin-top: 0.55rem;
+}
+.register .zdenglu .wangji span {
+  text-align: left;
+  display: block;
+  padding-right: 0.24rem;
+  height: 1.50rem;
+  line-height: 1.5rem;
+  font-size: 0.22rem;
+}
+.register .zdenglu .wangji a {
+  font-size: 0.22rem;
+  color: #e68dad;
+}
+.setting.active {
+  left: 0;
+}
+.setting {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  position: fixed;
+  background: white;
+  top: 0;
+  left: 100%;
+  width: 100%;
+  height: 100%;
+  z-index: 10000;
+  overflow: hidden;
+}
+.setting .sheHead {
+  background: white;
+  padding: 0.33rem 0.24rem 0.26rem 0.24rem;
+  border-bottom: 1px solid #f1f1f1;
+  margin-bottom: 0.3rem;
+}
+.setting .sheHead a {
+  display: block;
+  font-size: 0.47rem;
+  color: black;
+  float: left;
+}
+.setting .sheHead p {
+  font-size: 0.33rem;
+  color: black;
+  text-align: center;
+  line-height: 0.47rem;
+}
+.setting .sheMain1 {
+  border-top: 1px solid #f1f1f1;
+  border-bottom: 1px solid #f1f1f1;
+  background: white;
+  margin-bottom: 0.3rem;
+}
+.setting .sheMain1 ul {
+  margin-bottom: 0.3rem;
+}
+.setting .sheMain1 ul li {
+  position: relative;
+  padding: 0.25rem 0.18rem 0 0.8rem ;
+  height: 0.65rem;
+}
+.setting .sheMain1 ul li .tu1 {
+  position: absolute;
+  top: 0.26rem;
+  left: 0.32rem;
+  margin-right: 0.1rem;
+  color: #ec397a;
+  font-size: 0.38rem;
+  float: left;
+}
+.setting .sheMain1 ul li div {
+  border-bottom: 1px solid #eeeeee;
+  padding-bottom: 0.3rem;
+}
+.setting .sheMain1 ul li div span {
+  font-size: 0.26rem;
+  color: black;
+}
+.setting .sheMain1 ul li div .tu2 {
+  float: right;
+  font-size: 0.28rem;
+  color: #c8c8c8;
+}
+.setting .sheMain1 ul li:nth-of-type(3) div {
+  border-bottom: none;
+}
+.setting .sheMain2 {
+  border-top: 1px solid #f1f1f1;
+  border-bottom: 1px solid #f1f1f1;
+  background: white;
+  position: relative;
+  padding: 0 0.18rem 0 0.8rem ;
+  margin-bottom: 0.3rem;
+}
+.setting .sheMain2 .tu1 {
+  position: absolute;
+  top: 0.26rem;
+  left: 0.32rem;
+  margin-right: 0.1rem;
+  color: #ec397a;
+  font-size: 0.38rem;
+  float: left;
+}
+.setting .sheMain2 p {
+  height: 0.9rem;
+  line-height: 0.9rem;
+  font-size: 0.26rem;
+}
+.setting .sheMain2 p span:nth-of-type(1) {
+  color: black;
+}
+.setting .sheMain2 p span:nth-of-type(2) {
+  float: right;
+}
+.setting .sheMain3 {
+  border-top: 1px solid #f1f1f1;
+  border-bottom: 1px solid #f1f1f1;
+  background: white;
+  margin-bottom: 0.3rem;
+}
+.setting .sheMain3 ul {
+  margin-bottom: 0.3rem;
+}
+.setting .sheMain3 ul li {
+  position: relative;
+  padding: 0.25rem 0.18rem 0 0.8rem ;
+  height: 0.65rem;
+}
+.setting .sheMain3 ul li .tu1 {
+  position: absolute;
+  top: 0.26rem;
+  left: 0.32rem;
+  margin-right: 0.1rem;
+  color: #ec397a;
+  font-size: 0.38rem;
+  float: left;
+}
+.setting .sheMain3 ul li .tu2 {
+  float: right;
+  font-size: 0.28rem;
+  color: #c8c8c8;
+}
+.setting .sheMain3 ul li div {
+  border-bottom: 1px solid #eeeeee;
+  padding-bottom: 0.3rem;
+}
+.setting .sheMain3 ul li div span {
+  font-size: 0.26rem;
+  color: black;
+}
+.setting .sheMain3 ul li:nth-of-type(2) div {
+  border-bottom: none;
+}
+.setting .sheMain3 ul li:nth-of-type(2) div P {
+  color: #bbbbbb;
+  font-size: 0.2rem;
+}
+.setting .sheMain3 ul li:nth-of-type(2) div div.active {
+  background: #3385FF;
+}
+.setting .sheMain3 ul li:nth-of-type(2) div div.active b {
+  float: left;
+}
+.setting .sheMain3 ul li:nth-of-type(2) div div {
+  float: right;
+  display: block;
+  width: 1rem;
+  height: 0.6rem;
+  background: #eb3e7d;
+  border-radius: 0.3rem ;
+}
+.setting .sheMain3 ul li:nth-of-type(2) div div b {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  float: right;
+  display: block;
+  width: 0.6rem;
+  height: 0.6rem;
+  border-radius: 0.3rem;
+  background: white;
+  position: relative;
+}
+.message.active {
+  left: 0;
+}
+.message {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  position: fixed;
+  background: #f7f7f7;
+  top: 0;
+  left: 100%;
+  width: 100%;
+  height: 100%;
+  z-index: 10000;
+  overflow: hidden;
+}
+.message .xhead {
+  background: white;
+  padding: 0.33rem 0.24rem 0.26rem 0.24rem;
+  border-bottom: 0.01rem solid #dddddd;
+}
+.message .xhead a {
+  display: block;
+  font-size: 0.47rem;
+  color: black;
+  float: left;
+}
+.message .xhead p {
+  font-size: 0.33rem;
+  color: black;
+  text-align: center;
+  line-height: 0.47rem;
+}
+.message .xmain {
+  overflow: hidden;
+  width: 4.84rem;
+  border: 1px solid #c57181;
+  border-radius: 0.06rem;
+  margin: 0.35rem auto;
+}
+.message .xmain a {
+  line-height: 0.6rem;
+  float: left;
+  display: block;
+  width: 50%;
+  height: 0.6rem;
+  font-size: 0.2rem;
+  text-align: center;
+  color: black;
+}
+.message .xmain a.active {
+  background: #ff5876;
+  color: white;
+}
+.pagein {
+  -webkit-animation: page 0.3s;
+          animation: page 0.3s;
+}
+@-webkit-keyframes page {
+  from {
+    left: 3%;
+    opacity: 0;
+  }
+  to {
+    left: 0;
+    opacity: 1;
+  }
+}
+@keyframes page {
+  from {
+    left: 3%;
+    opacity: 0;
+  }
+  to {
+    left: 0;
+    opacity: 1;
+  }
+}
+.cardin {
+  -webkit-animation: card 0.3s;
+          animation: card 0.3s;
+}
+@-webkit-keyframes card {
+  from {
+    -webkit-transform: rotateX(60deg);
+            transform: rotateX(60deg);
+    opacity: 0;
+  }
+  to {
+    -webkit-transform: rotateX(0);
+            transform: rotateX(0);
+    opacity: 1;
+  }
+}
+@keyframes card {
+  from {
+    -webkit-transform: rotateX(60deg);
+            transform: rotateX(60deg);
+    opacity: 0;
+  }
+  to {
+    -webkit-transform: rotateX(0);
+            transform: rotateX(0);
+    opacity: 1;
+  }
+}
+@keyframes card {
+  from {
+    -webkit-transform: rotateX(60deg);
+            transform: rotateX(60deg);
+    opacity: 0;
+  }
+  to {
+    -webkit-transform: rotateX(0);
+            transform: rotateX(0);
+    opacity: 1;
+  }
+}
+.mdetails {
+  position: relative;
+  left: 0;
+  top: 0;
+}
+.details {
+  position: relative;
+  overflow: hidden;
+  padding-top: 1rem;
+}
+.details .header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: white;
+  z-index: 5;
+  height: 1rem;
+  text-align: center;
+  line-height: 1rem;
+  box-sizing: border-box;
+  padding: 0 1rem;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.6);
+}
+.details .header .pingjia {
+  text-align: center;
+}
+.details .header .title {
+  font-size: 0.3rem;
+  color: #303030;
+  font-weight: normal;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.details .header .icons {
+  font-size: 0.4rem;
+  color: #606060;
+  top: 0;
+  position: absolute;
+}
+.details .header .iconl {
+  left: 0.2rem;
+}
+.details .header .iconr {
+  right: 0.2rem;
+}
+.details .addbox {
+  position: fixed;
+  z-index: 9;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 0.85rem;
+  color: white;
+}
+.details .addbox .leftcontent {
+  background: #191919;
+  width: 40%;
+  height: 100%;
+  text-align: center;
+  position: relative;
+  padding-top: 0.05rem;
+}
+.details .addbox .leftcontent .wenzi {
+  font-size: 0.2rem;
+}
+.details .addbox .leftcontent .fline {
+  position: absolute;
+  width: 0.02rem;
+  background: #bababa;
+  left: 50%;
+  height: 100%;
+}
+.details .addbox .leftcontent .icons {
+  font-size: 0.4rem;
+}
+.details .addbox .leftcontent .lcon {
+  width: 50%;
+}
+.details .addbox .leftcontent .lcon.active {
+  color: #eb3e7d;
+}
+.details .addbox .leftcontent .rcon {
+  width: 50%;
+}
+.details .addbox .rightcontent {
+  background: #eb3e7d;
+  text-align: center;
+  width: 60%;
+  line-height: 0.85rem;
+  height: 100%;
+}
+.details .addbox .rightcontent .addtocar {
+  font-size: 0.3rem;
+}
+.details .limittime {
+  background: #eb3e7d;
+  height: 0.75rem;
+  border-top: solid 0.01rem #db306e;
+  border-bottom: solid 0.01rem #db306e;
+  line-height: 0.75rem;
+  box-shadow: 0 0.01rem 0 #dcc1d5;
+  color: white;
+  font-size: 0.24rem;
+  text-align: center;
+}
+.details .main {
+  position: relative;
+  background: #F7F7F7;
+  height: 100%;
+}
+.details .main .comm {
+  background: white;
+  border-top: solid 0.02rem #EFEFEF;
+}
+.details .main .comm .pinlun {
+  font-weight: normal;
+  height: 0.9rem;
+  line-height: 0.9rem;
+  font-size: 0.23rem;
+  color: black;
+  padding-left: 0.27rem;
+  border-bottom: solid 0.02rem #EFEFEF;
+}
+.details .main .comm .pinluninfo {
+  padding: 0 0.27rem;
+  height: 1.05rem;
+  line-height: 1.05rem;
+  font-size: 0.2rem;
+}
+.details .main .comm .commentlistbox {
+  border-top: solid 0.02rem #d5d5d5;
+}
+.details .main .comm .commentlistbox .commentlist .comment:nth-child(1) {
+  background: #fefbf4;
+}
+.details .main .comm .commentlistbox .commentlist .comment {
+  padding: 0.27rem 0.27rem 0.3rem 0.27rem;
+  border-bottom: solid 0.01rem #f5f5f5;
+  font-size: 0.21rem;
+  position: relative;
+}
+.details .main .comm .commentlistbox .commentlist .comment .head {
+  width: 0.8rem;
+  height: 0.8rem;
+  border-radius: 50%;
+  background: #e4e4e4;
+  text-align: center;
+  line-height: 0.8rem;
+}
+.details .main .comm .commentlistbox .commentlist .comment .head .icons {
+  color: white;
+  font-size: 0.5rem;
+}
+.details .main .comm .commentlistbox .commentlist .comment .author {
+  color: black;
+  margin-left: 0.1rem;
+  width: 3rem;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.details .main .comm .commentlistbox .commentlist .comment .score {
+  height: 0.27rem;
+}
+.details .main .comm .commentlistbox .commentlist .comment .time {
+  color: #818183;
+  margin-top: 0.13rem;
+}
+.details .main .comm .commentlistbox .commentlist .comment .title {
+  color: #ed3a7c;
+  margin-top: 0.18rem;
+  font-weight: 550;
+}
+.details .main .comm .commentlistbox .commentlist .comment .detailcom {
+  color: black;
+  margin-top: 0.15rem;
+}
+.details .main .comm .commentlistbox .commentlist .comment .detailcom .item {
+  margin-right: 0.05rem;
+}
+.details .main .comm .commentlistbox .commentlist .comment .detailcom .ident {
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+  margin-top: 0.1rem;
+}
+.details .main .comm .more {
+  height: 0.85rem;
+  line-height: 0.85rem;
+  text-align: center;
+  border-top: solid 0.01rem #efefef;
+  border-bottom: solid 0.02rem #efefef;
+  font-size: 0.22rem;
+}
+.details .main .swiper-container {
+  background: white;
+  height: 5.65rem;
+  padding-bottom: 0.3rem;
+}
+.details .main .swiper-wrapper img {
+  margin: 0 auto;
+  height: 100%;
+}
+.details .main .swiper-pagination {
+  bottom: 0.25rem ;
+}
+.details .main .introduce {
+  height: 1.07rem;
+  width: 100%;
+  border-bottom: solid 0.01rem #ededed;
+  padding: 0.27rem 0.27rem;
+  position: relative;
+}
+.details .main .introduce .producttitle {
+  width: 5.25rem;
+  color: black;
+  font-size: 0.23rem;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+.details .main .introduce .line {
+  width: 0.01rem;
+  height: 100%;
+  background: #cbcbcb;
+  border-right: 0.01rem solid #e6e6e6;
+}
+.details .main .introduce .icons {
+  color: #9f9f9f;
+  font-size: 0.3rem;
+  margin-top: 0.1rem;
+}
+.details .main .infobox {
+  background: white;
+}
+.details .main .infobox .sellinfo {
+  padding-left: 0.27rem;
+  height: 0.9rem;
+  line-height: 0.9rem;
+  border-bottom: solid 0.01rem #eeeeee;
+  box-shadow: 0 0.01rem 0 #f8f8f8;
+}
+.details .main .infobox .sellinfo .discount {
+  width: 0.7rem;
+  height: 0.4rem;
+  line-height: 0.4rem;
+  text-align: center;
+  color: white;
+  display: inline-block;
+  font-size: 0.2rem;
+  background: #EB3E7D;
+  border: solid 0.01rem #ce356d;
+  box-shadow: -0.01rem 0.01rem 0 #e5bbd3;
+}
+.details .main .infobox .sellinfo .newprice {
+  font-size: 0.25rem;
+  font-weight: bold;
+  color: #EB3E7D;
+  margin-left: 0.05rem;
+}
+.details .main .infobox .sellinfo .oldprice {
+  font-size: 0.17rem;
+  color: #898989;
+  margin-left: 0.05rem;
+}
+.details .main .infobox .commentsbox {
+  padding-left: 0.27rem;
+  height: 0.8rem;
+  line-height: 0.8rem;
+  border-bottom: solid 0.01rem #eeeeee;
+  box-shadow: 0 0.01rem 0 #f8f8f8;
+}
+.details .main .infobox .commentsbox .comments {
+  font-size: 0.22rem;
+  color: #898989;
+}
+.details .main .infobox .goodsName {
+  padding-left: 0.27rem;
+  color: #1f1f1f;
+  height: 0.9rem;
+  line-height: 0.9rem;
+  border-bottom: solid 0.01rem #EAEAEA;
+  font-size: 0.23rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  box-shadow: 0.01rem 0.02rem 0 #f2f2f2;
+}
+.details .main .promotionbox {
+  margin-top: 0.17rem;
+  border-top: solid 0.01rem #f5f5f5;
+  box-shadow: 0 -0.01rem 0 #eeeeee;
+}
+.details .main .promotionbox .promotion {
+  height: 0.7rem;
+  line-height: 0.7rem;
+  font-size: 0.24rem;
+  color: #ed3a7c;
+  padding-left: 0.27rem;
+  border-bottom: solid 0.01rem #ededed;
+  background: white;
+}
+.details .main .promotionbox .promotioninfo {
+  border-bottom: 0.02rem solid #F1F1F1;
+  padding: 0.1rem 0.27rem 0.27rem 0.60rem;
+  background: white;
+}
+.details .main .promotionbox .promotioninfo li {
+  font-size: 0.2rem;
+  color: #444444;
+  margin-top: 0.15rem;
+  list-style-type: disc;
+}
+.details .main .promotionbox .samebanner {
+  background: white;
+  height: 1.3rem;
+  margin-top: 0.17rem;
+  border-bottom: solid 0.02rem #f2f2f2;
+  border-top: solid 0.01rem #EDEDED;
+  padding-left: 0.27rem;
+  padding-top: 0.25rem;
+  position: relative;
+}
+.details .main .promotionbox .samebanner .goodsicon {
+  width: 1.5rem;
+}
+.details .main .promotionbox .samebanner .goodsicon img {
+  width: 100%;
+}
+.details .main .promotionbox .samebanner .banner {
+  font-size: 0.25rem;
+  color: black;
+}
+.details .main .promotionbox .samebanner .other {
+  font-size: 0.2rem;
+  margin-top: 0.1rem;
+  color: #9b9b9b;
+}
+.details .main .promotionbox .samebanner .icons {
+  position: absolute;
+  right: 0.4rem;
+  font-size: 0.3rem;
+  color: #818181;
+  top: 0.45rem;
+}
+.details .main .goodstag {
+  height: 0.9rem;
+  margin-top: 0.17rem;
+  background: white;
+  padding-left: 0.17rem;
+  border-bottom: solid 0.02rem #f2f2f2;
+  border-top: solid 0.01rem #EDEDED;
+  margin-bottom: 0.17rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.details .main .goodstag .tagbox .taglist {
+  height: 0.3rem;
+  line-height: 0.3rem;
+  margin-right: 0.25rem;
+}
+.details .main .goodstag .tagbox .taglist .imgs {
+  width: 0.3rem;
+  height: 0.3rem;
+}
+.details .main .goodstag .tagbox .taglist .tagname {
+  font-size: 0.22rem;
+  color: #969696;
+}
+.marks.active {
+  display: none;
+}
+.marks {
+  position: fixed;
+  top: 1rem;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 100;
+  width: 100%;
+}
+.marks .tips {
+  width: 4rem;
+  height: 3rem;
+  background: white;
+  position: absolute;
+  left: 50%;
+  top: 20%;
+  margin-left: -2rem;
+  border-radius: 20px;
+}
+.marks .tips h2 {
+  text-align: center;
+  height: 0.8rem;
+  background: #eb3e7d;
+  line-height: 0.8rem;
+  color: white;
+  font-size: 0.28rem;
+  border-radius: 20px 20px 0 0;
+}
+.marks .tips .kong {
+  background: white;
+  height: 2.2rem;
+  border-radius: 0 0 20px 20px;
+}
+.goodsattrmodule {
+  font-size: 0.24rem;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  padding-top: 1.72rem;
+}
+.goodsattrmodule .header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: white;
+  z-index: 6;
+  height: 1.72rem;
+  box-sizing: border-box;
+}
+.goodsattrmodule .header .pingjia {
+  text-align: center;
+}
+.goodsattrmodule .header .title {
+  font-size: 0.3rem;
+  color: #303030;
+  font-weight: normal;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.goodsattrmodule .header .icons {
+  font-size: 0.4rem;
+  color: #606060;
+  top: 0;
+  position: absolute;
+}
+.goodsattrmodule .header .iconl {
+  left: 0.2rem;
+}
+.goodsattrmodule .header .iconr {
+  right: 0.2rem;
+}
+.goodsattrmodule .header .headin {
+  position: absolute;
+  height: 1rem;
+  line-height: 1rem;
+  padding: 0 1rem;
+  text-align: center;
+  border-bottom: 1px solid #eee;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: white;
+}
+.goodsattrmodule .header .options {
+  position: absolute;
+  top: 1rem;
+  width: 100%;
+  left: 0;
+  height: 0.72rem;
+  line-height: 0.72rem;
+  border-bottom: 1px solid #eee;
+}
+.goodsattrmodule .header .options .para,
+.goodsattrmodule .header .options .btndetails {
+  display: inline-block;
+  width: 50%;
+  height: 0.72rem;
+  text-align: center;
+  font-size: 0.26rem;
+  color: #292929;
+}
+.goodsattrmodule .header .options .active {
+  color: #ed3a7c;
+}
+.goodsattrmodule .maincontent {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+.goodsattrmodule .descontent,
+.goodsattrmodule .paracontent {
+  top: 0;
+  width: 100%;
+  position: absolute;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  height: 100%;
+  overflow-y: auto;
+  background: white;
+}
+.goodsattrmodule .maincontent.active .descontent {
+  left: 100%;
+}
+.goodsattrmodule .maincontent.active .paracontent {
+  left: 0;
+}
+.goodsattrmodule .descontent {
+  left: 0;
+}
+.goodsattrmodule .paracontent {
+  left: -100%;
+  padding: 0.32rem 0.48rem 0 0.27rem;
+}
+.goodsattrmodule .paracontent .productTitle {
+  color: #292929;
+  margin-bottom: 0.25rem;
+}
+.goodsattrmodule .paracontent .productAttr {
+  height: 0.38rem;
+  line-height: 0.38rem;
+  font-size: 0.2rem;
+}
+.goodsattrmodule .paracontent .productAttr .name {
+  width: 22%;
+}
+.goodsattrmodule .paracontent .productAttr .value {
+  width: 75%;
+}
+.commentui {
+  position: fixed;
+  left: 100%;
+  top: 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  z-index: 999;
+  height: 100%;
+  overflow-y: auto;
+  width: 100%;
+}
+.goodsattr {
+  width: 100%;
+  position: fixed;
+  left: 100%;
+  top: 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  z-index: 999;
+  height: 100%;
+  overflow-y: auto;
+  background: white;
+}
+.commentui.active {
+  left: 0;
+}
+.commentui.active .header {
+  left: 0;
+}
+.goodsattr.active {
+  left: 0;
+}
+.commentmodule .header {
+  position: fixed;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  left: 100%;
+  top: 0;
+  width: 100%;
+  background: white;
+  z-index: 5;
+  height: 1rem;
+  line-height: 1rem;
+  box-sizing: border-box;
+  padding: 0 1rem;
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.3);
+}
+.commentmodule .header .pingjia {
+  text-align: center;
+}
+.commentmodule .header .title {
+  font-size: 0.3rem;
+  color: #303030;
+  font-weight: normal;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.commentmodule .header .icons {
+  font-size: 0.4rem;
+  color: #606060;
+  top: 0;
+  position: absolute;
+}
+.commentmodule .header .iconl {
+  left: 0.2rem;
+}
+.commentmodule .header .iconr {
+  right: 0.2rem;
+}
+.commentmodule .last {
+  background: #F7F7F7;
+  height: 1.05rem;
+  line-height: 1.05rem;
+  text-align: center;
+  font-size: 0.22rem;
+  color: #909090;
+  position: relative;
+}
+.commentmodule .comm {
+  background: white;
+  border-top: solid 0.02rem #EFEFEF;
+  padding-top: 1rem;
+}
+.commentmodule .comm .pinlun {
+  font-weight: normal;
+  height: 0.9rem;
+  line-height: 0.9rem;
+  font-size: 0.23rem;
+  color: black;
+  padding-left: 0.27rem;
+  border-bottom: solid 0.02rem #EFEFEF;
+}
+.commentmodule .comm .pinluninfo {
+  padding: 0 0.27rem;
+  height: 1.05rem;
+  line-height: 1.05rem;
+  font-size: 0.2rem;
+}
+.commentmodule .comm .commentlistbox {
+  border-top: solid 0.02rem #d5d5d5;
+}
+.commentmodule .comm .commentlistbox .commentlist .comment:nth-child(1) {
+  background: #fefbf4;
+}
+.commentmodule .comm .commentlistbox .commentlist .comment {
+  padding: 0.27rem 0.27rem 0.3rem 0.27rem;
+  border-bottom: solid 0.01rem #f5f5f5;
+  font-size: 0.21rem;
+  position: relative;
+}
+.commentmodule .comm .commentlistbox .commentlist .comment .head {
+  width: 0.8rem;
+  height: 0.8rem;
+  border-radius: 50%;
+  background: #e4e4e4;
+  text-align: center;
+  line-height: 0.8rem;
+}
+.commentmodule .comm .commentlistbox .commentlist .comment .head .icons {
+  color: white;
+  font-size: 0.5rem;
+}
+.commentmodule .comm .commentlistbox .commentlist .comment .author {
+  color: black;
+  margin-left: 0.1rem;
+  width: 3rem;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.commentmodule .comm .commentlistbox .commentlist .comment .score {
+  height: 0.27rem;
+}
+.commentmodule .comm .commentlistbox .commentlist .comment .time {
+  color: #818183;
+  margin-top: 0.13rem;
+}
+.commentmodule .comm .commentlistbox .commentlist .comment .title {
+  color: #ed3a7c;
+  margin-top: 0.18rem;
+  font-weight: 550;
+}
+.commentmodule .comm .commentlistbox .commentlist .comment .detailcom {
+  color: black;
+  margin-top: 0.15rem;
+}
+.commentmodule .comm .commentlistbox .commentlist .comment .detailcom .item {
+  margin-right: 0.05rem;
+}
+.commentmodule .comm .commentlistbox .commentlist .comment .detailcom .ident {
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+  margin-top: 0.1rem;
+}
+.commentmodule .comm .more {
+  height: 0.85rem;
+  line-height: 0.85rem;
+  text-align: center;
+  border-top: solid 0.01rem #efefef;
+  border-bottom: solid 0.02rem #efefef;
+  font-size: 0.22rem;
+}
+.level {
+  font-size: 0.25rem !important;
+  color: orange;
+  overflow: hidden;
+}
+.le5 {
+  width: 1.65rem;
+}
+.le4 {
+  width: 1.25rem;
+}
+.le3 {
+  width: 0.9rem;
+}
+.le2 {
+  width: 0.62rem;
+}
+.le1 {
+  width: 0.3rem;
+}
+.collect.active {
+  left: 0;
+}
+.collect {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: #f3f3f3;
+  left: 100%;
+  top: 0;
+  z-index: 1000;
+  -webkit-transition: left 0.3s;
+  transition: left 0.3s;
+}
+.collect .header {
+  height: 1rem;
+  width: 100%;
+  padding: 0 0.2rem;
+  line-height: 1rem;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.4);
+}
+.collect .header .iconfont {
+  float: left;
+  font-size: 0.4rem;
+  color: #333;
+}
+.collect .header .clearall {
+  float: right;
+  font-size: 0.22rem;
+  color: #333;
+}
+.collect .header p {
+  position: absolute;
+  background: white;
+  left: 0;
+  top: 0;
+  height: 1rem;
+  width: 100%;
+  text-align: center;
+  font-size: 0.28rem;
+  z-index: -1;
+}
+.collect .main {
+  position: absolute;
+  top: 1rem;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: auto;
+}
+.collect .main .nothing {
+  width: 100%;
+  height: 2rem;
+  position: relative;
+}
+.collect .main .nothing p {
+  height: 0.8rem;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  line-height: 0.8rem;
+  bottom: 0;
+  font-size: 0.22rem;
+  border-bottom: 1px solid #e9e9e9;
+}
+.collect .main .nothing.active {
+  display: block;
+}
+.collect .main .collect-box {
+  width: 100%;
+  height: 100%;
+}
+.collect .main .collect-box .by-time .time {
+  height: 0.6rem;
+  font-size: 0.22rem;
+  line-height: 0.6rem;
+  padding: 0 0.2rem;
+  color: #222;
+}
+.collect .main .collect-box .by-time .collect-card {
+  height: 2.3rem;
+  width: 100%;
+  background: white;
+  border-bottom: 1px solid #e6e2e7;
+  position: relative;
+}
+.collect .main .collect-box .by-time .collect-card .img-box {
+  float: left;
+  height: 100%;
+  width: 2.3rem;
+  padding: 0.3rem;
+  background: white;
+}
+.collect .main .collect-box .by-time .collect-card .img-box img {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+.collect .main .collect-box .by-time .collect-card .text-box {
+  overflow: hidden;
+  height: 100%;
+  padding: 0.18rem  1.2rem 0.18rem 0 ;
+  color: #303030;
+  font-size: 0.2rem;
+}
+.collect .main .collect-box .by-time .collect-card .text-box .storeName {
+  line-height: 0.34rem;
+  height: 0.34rem;
+}
+.collect .main .collect-box .by-time .collect-card .text-box .name {
+  line-height: 0.22rem;
+}
+.collect .main .collect-box .by-time .collect-card .text-box .time {
+  line-height: 0.42rem;
+  height: 0.42rem;
+  font-size: 0.16rem;
+}
+.collect .main .collect-box .by-time .collect-card .text-box .new-price {
+  height: 0.4rem;
+  line-height: 0.4rem;
+  font-size: 0.24rem;
+  color: #ed3a7c;
+}
+.collect .main .collect-box .by-time .collect-card .text-box .old-price {
+  height: 0.32rem;
+  line-height: 0.32rem;
+  color: #bcbcbc;
+}
+.collect .main .collect-box .by-time .collect-card .text-box .b4 {
+  margin-right: 0.1rem;
+}
+.collect .main .collect-box .by-time .collect-card .text-box .only {
+  color: #bf9b5f;
+}
+.collect .main .collect-box .by-time .collect-card .from {
+  width: 0.55rem;
+  height: 0.42rem;
+  border: 1px solid #9b9b9b;
+  display: inline-block;
+  text-align: center;
+  line-height: 0.42rem;
+  font-size: 0.2rem;
+  border-radius: 0.05rem;
+  position: absolute;
+  top: 0.18rem;
+  right: 0.18rem;
+}
+.collect .main .collect-box .by-time .collect-card .add-car {
+  width: 0.55rem;
+  height: 0.42rem;
+  text-align: center;
+  line-height: 0.42rem;
+  position: absolute;
+  bottom: 0.18rem;
+  right: 0.18rem;
+  color: #ed3a7c;
+  display: inline-block;
+  font-size: 0.34rem;
+}
+.collect .main .collect-box .by-time .collect-card .mark {
+  width: 0.54rem;
+  height: 0.54rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url(../img/J_03.png);
+  background-size: 100% 100%;
+}
+.tip-message {
+  position: fixed;
+  top: 70%;
+  padding: 5px 10px;
+  width: 2.6rem;
+  left: 50%;
+  margin-left: -1.3rem;
+  background: #ed3a7c;
+  text-align: center;
+  color: white;
+  font-size: 0.26rem;
+  border-radius: 4px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+  z-index: 888888;
+  display: none;
+}
+.tip-message.active {
+  display: block;
+  -webkit-animation: tips 0.5s;
+          animation: tips 0.5s;
+}
+@-webkit-keyframes tips {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}

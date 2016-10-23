@@ -1,0 +1,77 @@
+<div class="my pagein">
+	<div class="main">
+		<div class="myLogo" ng-class='{active:info.username==0}'>
+			<a class="iconfont icon-shezhi" ng-click='info.showSetting=true'></a>
+			<a class="iconfont icon-lingdang" ng-click='info.showMessage=true'></a>
+			<ul ng-if="info.username==0">
+				<li ng-click='info.showLogin=true'>登录</li>
+				<li ng-click='info.showRegister=true'>注册</li>
+			</ul>
+			<dl ng-if="info.username!=0">
+				<dt><img src="img/my.jpg" alt=""></dt>
+				<dd>{{info.username}}</dd>
+			</dl>
+		</div>
+		<div class="myList">
+			<ul>
+				<li ng-click='showCollectScanned(true)' >
+					<div>{{info.collect}}</div>
+					<span>我的收藏</span>
+				</li>
+				<li ng-click='showCollectScanned(false)'>
+					<div>{{info.scanned}}</div>
+					<span>浏览记录</span>
+				</li>
+				<li>
+					<div>0</div>
+					<span>积分中心</span>
+				</li>
+			</ul>
+		</div>
+		<div class="myNav">
+			<ul>
+				<li>
+					<a href="javascript:;" class="iconfont icon-daifukuan"></a>
+					<p>未付款</p>
+				</li>
+				<li>
+					<a href="javascript:;" class="iconfont icon-yifukuan"></a>
+					<p>已付款</p>
+				</li>
+				<li>
+					<a href="javascript:;" class="iconfont icon-daipingjia01"></a>
+					<p>待评价</p>
+				</li>
+				<li>
+					<a href="javascript:;" class="iconfont icon-icons64x6471"></a>
+					<p>到货通知</p>
+				</li>
+				<li>
+					<a href="javascript:;" class="iconfont icon-shouhou"></a>
+					<p>售后咨询</p>
+				</li>
+			</ul>
+		</div>
+		<div class="maMain">
+			<ul>
+				<li>
+					<a href="javascript:;" class="iconfont icon-wodedingdan"></a>
+					<p>我的订单</p>
+				</li>
+				<li>
+					<a href="javascript:;" class="iconfont icon-youhuiquan"></a>
+					<p>我的优惠券</p>
+				</li>
+				<li>
+					<a href="javascript:;" class="iconfont icon-pinglun"></a>
+					<p>我的评价</p>
+				</li>
+				<li>
+					<a href="javascript:;" class="iconfont icon-bangzhuzhongxin"></a>
+					<p>帮助中心</p>
+				</li>
+			</ul>
+		</div>
+	</div>
+
+</div>

@@ -1,0 +1,44 @@
+<div class="class-info pagein">
+
+<header>
+    <i class="iconfont icon-zuojiantou" ng-click='back()'></i>
+    <div class="search">
+        <i class="iconfont icon-chazhao"></i>
+    </div>
+</header>
+<div class="loading"></div>
+<nav class='tab'>
+    <a href="" class="tab-item {{$first?'active':''}}" ng-class='d==active?"active":""' ng-repeat="d in orderBy" ng-click="sort(d)">{{d}}</a> 
+</nav>
+
+<div class="card-box">
+
+    <div class="card" ng-repeat="d in searchData" >
+
+
+        <div class="img-box" ng-click='goDetails(d.id)'>
+            <a ><img ng-src="{{d.img}}" src='img/loading.png' alt="{{d.storeName}}"></a>
+        </div>
+        <div class="text-box">
+            <p class="storeName"><span class='only' ng-if='d.isOnlineExclusive'>[独家] </span>{{d.storeName}}</p>
+            <p class="name">{{d.name}}</p>
+            <p class="time"><span ng-if='d.killendtime'>{{time}}</span></p>
+            <p class="new-price">{{d.price|currency:'￥'}}</p>
+            <p class="old-price"><del class="b4">{{d.oldPrice|currency:'￥'}}</del><span class="discount">{{d.discount}}</span></p>
+        </div>
+
+        <span class="mark" ng-if='d.killendtime'></span>
+        <span class="from" ng-if="d.placename">{{d.placename}}</span>
+        <a href="" class="add-car iconfont icon-gouwuche" ng-click="addCar(d)"></a>
+
+    </div>
+
+</div>
+
+
+
+</div>
+
+<div class="tip-message" ng-class='{active:message.show}'>
+	{{message.text}}
+</div>

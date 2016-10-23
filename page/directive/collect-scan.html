@@ -1,0 +1,34 @@
+<div class="collect" ng-class="{active:info.showCollect}">
+	<div class="header">
+		<a href="" class="iconfont" ng-click="info.showCollect=false">&#xe61a</a>
+		<p>{{cs.title}}</p>
+		<a  class="clearall" ng-click="clearCollectScanned(cs.title)">清空</a>
+	</div>
+	<div class="main">
+		<div class="nothing" ng-if="isEmptyObj(myData)">
+			<p>亲，暂时没有{{cs.tip}}记录</p>
+		</div>
+		<div class="collect-box" ng-if="!isEmptyObj(myData)">
+			<div class="by-time" ng-repeat="(key,value) in myData ">
+				<p class="time">{{key}}</p>
+				<div class="collect-card" ng-repeat='d in value '>
+					<div class="img-box" ng-click='goDetails(d.id)'>
+						<a ><img ng-src="{{d.img}}" src='img/loading.png' alt="{{d.storeName}}"></a>
+					</div>
+					<div class="text-box">
+						<p class="storeName"><span class='only' ng-if='$index%3==0'>[独家] </span>{{d.storeName}}</p>
+						<p class="name">{{d.name}}</p>
+						<p class="time"><span ng-if='d.killendtime'>{{time}}</span></p>
+						<p class="new-price">{{d.price|currency:'￥'}}</p>
+						<p class="old-price">
+							<del class="b4">{{d.oldPrice|currency:'￥'}}</del><span class="discount">{{d.discount}}</span></p>
+					</div>
+
+					<span class="mark" ng-if='d.killendtime'></span>
+					<span class="from" ng-if="d.placename">{{d.placename}}</span>
+					<a href="" class="add-car iconfont icon-gouwuche" ng-click="addCar(d)"></a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

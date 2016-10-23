@@ -1,0 +1,37 @@
+<div class="list pagein">
+	<header class="header">
+		<h2 class="title">分类</h2>
+		<span class="icons iconfont icon-chazhao"  ng-click='info.showSearch=true'></span>
+	</header>	
+	<div class="top clear">
+		<span class="title" ng-class="{active:listnow=='goodslist'}" ng-click="goodslist()">商品分类</span>
+		<span class="title" ng-class="{active:listnow=='bannerlist'}" ng-click="bannerlist()">品牌浏览</span>
+		<span class="line"></span>
+	</div>
+	<div class="content clear">
+		<div class="goodslist clear" ng-class="{'ng-hide':listnow=='bannerlist'}">
+			<div class="side left">
+				<p class="nav" ng-class="{active:now==item.id}" ng-repeat="item in nav" ng-click="getlist(item,$index)" >{{item.name}}</p>
+			</div>
+			<div class="maincontent left">
+				<div class="detaillist lists" ng-class="{show:now==item.id}" ng-repeat="item in nav">
+					<p class="hot">热卖商品<span class="icons right iconfont icon-youjiantou"></span></p>
+					<p class="hot">新品上市<span class="icons right iconfont icon-youjiantou"></span></p>
+					<p class="detail" ng-repeat="i in item.subitem" ng-click='goClass()'>{{i.name}}<span class="icons right iconfont icon-youjiantou"></span></p>
+				</div>
+			</div>
+		</div>
+		<div class="bannerlist" ng-class="{'ng-hide':listnow=='goodslist'}">
+			<div class="navbox">
+				<a class="bannernav" ng-repeat="item in navs" ng-bind="item" ng-click="change(item)"></a>
+			</div>
+			<div class="bannercontent">
+				
+				<div ng-repeat="(key,value) in bannerlistData">
+					<p class="letters" id='{{key}}'>{{key}}</p>
+					<p class="banners" ng-repeat="data in value">{{data.storenameen}} {{data.storenameen==data.storename?"":data.storename}}<span class='special' ng-if='data.producttagtype'>网上独家</span></p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

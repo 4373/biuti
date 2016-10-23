@@ -1,0 +1,213 @@
+{
+    "notifynum": "60",
+    "productsNo": "107316902004",
+    "tag": "downpro",
+    "displaytag": "product",
+    "img": "public/images/da/7a/af/2a7b9b3372903fa2c7dae24c741a61b0836ed479.jpg",
+    "retailPrice": "69.000000",
+    "isnewhome": "0",
+    "stock": "0",
+    "seckill_id": "",
+    "producttagtype": [
+        {
+            "tagfilter": "tags_tag_review",
+            "tagtype": "goods",
+            "img": "public/images/2a/0f/0a/927b1d631101309f5b7290337c803b4f1bca2fcb.png",
+            "producttagid": "13",
+            "producttagname": "好评中"
+        },
+        {
+            "tagfilter": "tags_tag_hot",
+            "tagtype": "goods",
+            "img": "public/images/96/12/dd/45d954f097d557085ffa9cb3110cf5d753118162.png",
+            "producttagid": "11",
+            "producttagname": "热卖中"
+        },
+        {
+            "tagfilter": "directdown_tag_new",
+            "tagtype": "goods",
+            "img": "public/images/9d/35/87/1342430b71e33eeb273b63a84f32719f3777ea4d.png",
+            "producttagid": "33",
+            "producttagname": "直降"
+        },
+        {
+            "tagfilter": "tags_tag_origin",
+            "tagtype": "goods",
+            "img": "public/images/18/8f/31/f038fa6b27b7c00232bc29080702470342f318ad.png",
+            "producttagid": "206",
+            "producttagname": "日本制造"
+        },
+        {
+            "tagfilter": "b2c_brand_origin_tag_jp",
+            "tagtype": "brand",
+            "img": "public/images/4b/c4/be/658eaaa004abf71273aa72856b3b9430e875f4d1.png",
+            "producttagid": "28",
+            "producttagname": "日本品牌"
+        },
+        {
+            "tagfilter": "b2c_brand_origin_tag_isluxury",
+            "tagtype": "brand",
+            "img": "public/images/d6/aa/28/f443f3ad8f75bb2e784234c7bc3b446941834b10.png",
+            "producttagid": "24",
+            "producttagname": "奢品美妆"
+        }
+    ],
+    "isnew": "0",
+    "pricespec": [
+        {
+            "META_SIZE": "7片",
+            "META_SIZE_CODE": "abc"
+        }
+    ],
+    "starttime": "",
+    "forapp": "0",
+    "storeNameId": "6d27118e-2b7c-4d50-832e-240bac7a6aa4",
+    "dowmprice": "19.000000",
+    "efficacy": [],
+    "disnumber": "0",
+    "like": "9069",
+    "comprice": "0",
+    "storeNameEn": "Kose",
+    "discount": "2.8折",
+    "price": "19.000000",
+    "priceMapping": [
+        {
+            "endtime": "",
+            "META_SIZE": "7片",
+            "tag": "downpro",
+            "bn": "107316902004",
+            "salePurchase": "",
+            "isOnlineExclusive": "",
+            "META_SIZE_CODE": null,
+            "stock": "0",
+            "producttagtype": null,
+            "seckill_id": "",
+            "isnew": "0",
+            "is_bonded": "false",
+            "oldprice": "69.00",
+            "storeid": "6d27118e-2b7c-4d50-832e-240bac7a6aa4",
+            "ecstoreId": "3778",
+            "forapp": "0",
+            "dowmprice": "19.000000",
+            "META_COLOR": "FREE",
+            "pid": "a21fbb07-1b03-4e90-80e3-613a67138a23",
+            "storetype": null,
+            "discount": "2.8折",
+            "productId": "e5dddbb7-f62c-4c23-8f38-0fdc105d653a",
+            "viplvprice": "",
+            "price": "19.000000",
+            "goodsid": "4509",
+            "nums": "",
+            "pname": "高丝 COSMEPORT Babyish美白保湿面膜 (7片)",
+            "META_COLOR_CODE": null,
+            "salePlayCount": "",
+            "pricemappingstock": "0"
+        }
+    ],
+    "secondCategory": "5620cdeb-b1ee-4cf8-86b2-3b7cbe89ad51",
+    "salePlayCount": "",
+    "topCategory": "716f8a75-8121-42f3-b695-c208604edc64",
+    "endtime": "",
+    "desc": "<strong><產品介紹><\/strong><br/><br/><Kose Cosmeport Babyish 美白面膜 一包有7片，可以日日保持柔嫩润泽肌肤。丰富滋润的美容液为肌肤带来水嫩弹性，如婴儿肌般白滑。产品性质温和，不会引起过敏反应。角质层中的Ceramide及皮肤滋润度，并阻挡外界对肌肤所造成的刺激。如皮肤缺少这些成份，其保护膜功能将遭削弱及损害，令各种皮肤问题乘虚而入。因此，要保持皮肤健康，有效地使用这些滋润成份绝对是关键所在。><br/><br/><Kose Cosmeport Babyish 美白面膜蕴含大量美白因子，持久使用，会令你拥用婴儿般白滑美肌。><br/><br/><strong><使用方法><\/strong><br/><br/><img style=\"width: 100%\" style=\"width: 100%\" style=\"width: 100%\" style=\"width: 100%\" alt=\"\" src=\"http://cdnec.sasa.com/public/promoImgs/howtouse/12_papermask.jpg\" border=\"0\">",
+    "attribute": [
+        {
+            "alias": "productNoC",
+            "name": "商品编号",
+            "value": "107316902004",
+            "size": ""
+        },
+        {
+            "alias": "productBrandC",
+            "name": "商品品牌",
+            "value": "Kose",
+            "size": ""
+        },
+        {
+            "alias": "productSerieC",
+            "name": "商品系列",
+            "value": "COSMEPORT",
+            "size": ""
+        },
+        {
+            "alias": "productNameC",
+            "name": "商品名称",
+            "value": "Babyish美白保湿面膜",
+            "size": ""
+        },
+        {
+            "alias": "productEfficacyC",
+            "name": "商品功效",
+            "value": "保湿,美白,提亮肤色,去疤/去印",
+            "size": ""
+        },
+        {
+            "alias": "productSpecC",
+            "name": "商品规格",
+            "value": "7片",
+            "size": ""
+        },
+        {
+            "alias": "shelfLifeC",
+            "name": "保质期限",
+            "value": "3年，具体日期以收到的实物为准，开封后跟产品包装指示为准",
+            "size": ""
+        },
+        {
+            "alias": "countryOfOriginC",
+            "name": "原产国家",
+            "value": "日本",
+            "size": ""
+        },
+        {
+            "alias": "适用人群",
+            "name": "适用人群",
+            "value": "所有肌肤",
+            "size": ""
+        }
+    ],
+    "lian": {
+        "iffollow": "0",
+        "sgrade": "0",
+        "fans": "0",
+        "relationpost": null,
+        "datarealtion": null,
+        "sicon": "",
+        "sname": "高丝",
+        "storedesc": "",
+        "discuss": null,
+        "likepeople": null,
+        "dataother": null,
+        "newproductnum": "0",
+        "sbackground": "",
+        "productnum": "41"
+    },
+    "id": "a21fbb07-1b03-4e90-80e3-613a67138a23",
+    "salePurchase": "",
+    "pics": [
+        {
+            "orderindex": null,
+            "img": "public/images/da/7a/af/2a7b9b3372903fa2c7dae24c741a61b0836ed479.jpg",
+            "imgHight": "0",
+            "imgWidth": "0",
+            "type": "main"
+        }
+    ],
+    "isOnlineExclusive": "false",
+    "name": "高丝 COSMEPORT Babyish美白保湿面膜 (7片)",
+    "imgHight": 0,
+    "is_bonded": "false",
+    "oldPrice": "69.00",
+    "salesprice": "0",
+    "storeName": "高丝",
+    "supplier_id": "",
+    "islike": "0",
+    "ecstoreId": "4509",
+    "paycount": "4604",
+    "imgWidth": 0,
+    "storetype": "7",
+    "viplvprice": "",
+    "avgscore": "",
+    "nums": "0",
+    "productTitle": "添加独特的明眸亮采配方 (Dark Circle Diminisher)，促进黑色素分解，抑制眼周黯沉形成，为眼周注入源源不绝的亮白动力。",
+    "comrate": "0"
+}

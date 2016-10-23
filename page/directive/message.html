@@ -1,0 +1,11 @@
+<div class="message" ng-class='{active:info.showMessage}'>
+	<div class="xhead">
+		<a href="" class="iconfont" ng-click="info.showMessage=false">&#xe61a</a>
+		<p>消息中心</p>
+	</div>
+	<div class="xmain" ng-init='a=true'>
+		<a ng-class='{active:a}' ng-click='a=!a'>消息</a>
+		<a ng-class='{active:!a}' ng-click='a=!a'>站内信</a>
+	</div>
+	<div class="sss"></div>
+</div>

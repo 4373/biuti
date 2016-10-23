@@ -1,0 +1,66 @@
+<div class="setting" ng-class='{active:info.showSetting}'>
+	<div class="sheHead">
+		<a href="" class="iconfont" ng-click='info.showSetting=false'>&#xe61a</a>
+		<p>设置</p>
+	</div>
+	<div class="sheMain1">
+		<ul>
+			<li>
+				<a class="iconfont icon-geren tu1"></a>
+				<div>
+					<span>个人资料</span>
+					<a class="iconfont icon-youjiantou tu2"></a>
+				</div>
+			</li>
+			<li>
+				<a class="iconfont icon-truck tu1"></a>
+				<div>
+					<span>收货地址</span>
+					<a class="iconfont icon-youjiantou tu2"></a>
+				</div>
+			</li>
+			<li>
+				<a class="iconfont icon-iconsuo tu1"></a>
+				<div>
+					<span>安全中心</span>
+					<a class="iconfont icon-youjiantou tu2"></a>
+				</div>
+			</li>
+		</ul>
+	</div>
+	<div class="sheMain2">
+		<a class="iconfont icon-qingli tu1"></a>
+		<p>
+			<span>清除缓存</span>
+			<span>5.83MB</span>
+		</p>
+	</div>
+	<div class="sheMain3">
+		<ul>
+			<li>
+				<a class="iconfont icon-guanyuwomen tu1"></a>
+				<div>
+					<span>关于莎莎</span>
+					<a class="iconfont icon-youjiantou tu2"></a>
+				</div>
+			</li>
+			<li>
+				<a class="iconfont icon-lingdang tu1"></a>
+				<div ng-init='a=true'>
+					<div ng-class='{active:!a}'>
+						<b ng-click='a=!a'></b>
+					</div>
+					<span>信息推送</span>
+					<p>打开以确保第一时间接受到优惠信息</p>
+
+				</div>
+			</li>
+			<li ng-if="info.username!=0">
+				<a class="iconfont icon-tuichudenglu tu1"></a>
+				<div>
+					<span ng-click="exit()">登出</span>
+				</div>
+			</li>
+		</ul>
+	</div>
+</div>

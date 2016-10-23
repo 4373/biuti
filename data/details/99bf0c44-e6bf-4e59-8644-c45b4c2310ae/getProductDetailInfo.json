@@ -1,0 +1,198 @@
+{
+    "notifynum": "9",
+    "productsNo": "107184703001",
+    "tag": "",
+    "displaytag": "product",
+    "img": "public/images/1a/c6/e3/de1f4c9bedeb7646cdc68ff30d314e1b96d8bb36.jpg",
+    "retailPrice": "289.000000",
+    "isnewhome": "0",
+    "stock": "62",
+    "seckill_id": "",
+    "producttagtype": [],
+    "isnew": "0",
+    "pricespec": [
+        {
+            "META_SIZE": "50毫升",
+            "META_SIZE_CODE": "abc"
+        }
+    ],
+    "starttime": "",
+    "forapp": "0",
+    "storeNameId": "f41fd1b0-2dbb-4468-991b-555cc7574ccd",
+    "dowmprice": "",
+    "efficacy": [],
+    "disnumber": "0",
+    "like": "3968",
+    "comprice": "0",
+    "storeNameEn": "Dr. Jart+",
+    "discount": "8折",
+    "price": "231.00",
+    "priceMapping": [
+        {
+            "endtime": "",
+            "META_SIZE": "50毫升",
+            "tag": "",
+            "bn": "107184703001",
+            "salePurchase": "",
+            "isOnlineExclusive": "",
+            "META_SIZE_CODE": null,
+            "stock": "62",
+            "producttagtype": null,
+            "seckill_id": "",
+            "isnew": "0",
+            "is_bonded": "false",
+            "oldprice": "289.00",
+            "storeid": "f41fd1b0-2dbb-4468-991b-555cc7574ccd",
+            "ecstoreId": "409",
+            "forapp": "0",
+            "dowmprice": null,
+            "META_COLOR": "FREE",
+            "pid": "99bf0c44-e6bf-4e59-8644-c45b4c2310ae",
+            "storetype": null,
+            "discount": "8折",
+            "productId": "5cbdf9d3-035b-4810-96d6-49e5c16f3e70",
+            "viplvprice": "",
+            "price": "231.00",
+            "goodsid": "409",
+            "nums": "",
+            "pname": "Dr. Jart+ 毛孔隐形修颜霜SPF30/PA++ (50毫升)",
+            "META_COLOR_CODE": null,
+            "salePlayCount": "",
+            "pricemappingstock": "62"
+        }
+    ],
+    "secondCategory": "f56c74c4-7b69-470d-ae1a-633aba333536",
+    "salePlayCount": "",
+    "topCategory": "8a4f0282-d00e-4a8d-a4c0-8980a28593eb",
+    "endtime": "",
+    "desc": "<strong><產品介紹><\/strong><br/><br/><Dr.Jart+ DIS-A-PORE Beauty Balm BB霜，提供SPF30/PA++防晒，保护肌肤免受紫外线伤害。便用后肤色更均匀、亮泽，妆容时刻保持贴服。天然植物成份有效舒缓受刺激的肌肤，阻档紫外线之余，更有补湿效能，长期使用能加强肌肤自我抵御能力。><br/><br/><br/><strong><使用方法><\/strong><br/><br/><img style=\"width: 100%\" style=\"width: 100%\" style=\"width: 100%\" style=\"width: 100%\" style=\"width: 100%\" style=\"width: 100%\" style=\"width: 100%\" style=\"width: 100%\" style=\"width: 100%\" style=\"width: 100%\" style=\"width: 100%\" style=\"width: 100%\" alt=\"\" src=\"http://cdnec.sasa.com/public/promoImgs/howtouse/19_BBCCcream.jpg \" border=\"0\">",
+    "attribute": [
+        {
+            "alias": "productNoC",
+            "name": "商品编号",
+            "value": "107184703001",
+            "size": ""
+        },
+        {
+            "alias": "productBrandC",
+            "name": "商品品牌",
+            "value": "Dr. Jart+",
+            "size": ""
+        },
+        {
+            "alias": "productNameC",
+            "name": "商品名称",
+            "value": "毛孔隐形修颜霜SPF30/PA++",
+            "size": ""
+        },
+        {
+            "alias": "productEfficacyC",
+            "name": "商品功效",
+            "value": "遮瑕,保湿,均匀肤色,修饰毛孔,提亮肤色",
+            "size": ""
+        },
+        {
+            "alias": "productSpecC",
+            "name": "商品规格",
+            "value": "50毫升",
+            "size": ""
+        },
+        {
+            "alias": "shelfLifeC",
+            "name": "保质期限",
+            "value": "3年，具体日期以收到的实物为准，开封后跟产品包装指示为准",
+            "size": ""
+        },
+        {
+            "alias": "countryOfOriginC",
+            "name": "原产国家",
+            "value": "韩国",
+            "size": ""
+        },
+        {
+            "alias": "色系",
+            "name": "色系",
+            "value": "自然色",
+            "size": ""
+        },
+        {
+            "alias": "适用人群",
+            "name": "适用人群",
+            "value": "所有肌肤",
+            "size": ""
+        }
+    ],
+    "lian": {
+        "iffollow": "0",
+        "sgrade": "0",
+        "fans": "0",
+        "relationpost": null,
+        "datarealtion": null,
+        "sicon": "public/images/ff/c8/39/c7c8ba73c8522de2b28dd2317c9ade4ce0db7dbf.png",
+        "sname": "Dr. Jart+",
+        "storedesc": "",
+        "discuss": null,
+        "likepeople": null,
+        "dataother": null,
+        "newproductnum": "0",
+        "sbackground": "",
+        "productnum": "60"
+    },
+    "id": "99bf0c44-e6bf-4e59-8644-c45b4c2310ae",
+    "salePurchase": "",
+    "pics": [
+        {
+            "orderindex": null,
+            "img": "public/images/1a/c6/e3/de1f4c9bedeb7646cdc68ff30d314e1b96d8bb36.jpg",
+            "imgHight": "0",
+            "imgWidth": "0",
+            "type": "main"
+        },
+        {
+            "orderindex": null,
+            "img": "public/images/58/cf/55/e5890b022a227a2af6019940698dbd8afa0d6408.jpg",
+            "imgHight": "0",
+            "imgWidth": "0",
+            "type": "main"
+        },
+        {
+            "orderindex": null,
+            "img": "public/images/7b/7d/d6/778b5f1d9e46fa4e37ae593ef81ba1a40058b590.jpg",
+            "imgHight": "0",
+            "imgWidth": "0",
+            "type": "main"
+        },
+        {
+            "orderindex": null,
+            "img": "public/images/cd/09/f7/1929e39f0b88659b662155aa9e7d3a3944f81238.jpg",
+            "imgHight": "0",
+            "imgWidth": "0",
+            "type": "main"
+        },
+        {
+            "orderindex": null,
+            "img": "public/images/5f/4e/97/34826b3e2453696c7485cfdd30f3cd41ae36dba0.jpg",
+            "imgHight": "0",
+            "imgWidth": "0",
+            "type": "main"
+        }
+    ],
+    "isOnlineExclusive": "false",
+    "name": "Dr. Jart+ 毛孔隐形修颜霜SPF30/PA++ (50毫升)",
+    "imgHight": 0,
+    "is_bonded": "false",
+    "oldPrice": "289.00",
+    "salesprice": "0",
+    "storeName": "Dr. Jart+",
+    "supplier_id": "",
+    "islike": "0",
+    "ecstoreId": "409",
+    "paycount": "155",
+    "imgWidth": 0,
+    "storetype": "3",
+    "viplvprice": "",
+    "avgscore": "",
+    "nums": "0",
+    "productTitle": "",
+    "comrate": "0"
+}

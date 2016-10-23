@@ -1,0 +1,172 @@
+<div class="home pagein">
+
+	<header class="home-header">
+
+		<h1>
+			<span class="iconfont icon-lingdang"  ng-click='info.showMessage=true'></span><img src="img/logo_03.png" /><span class="iconfont icon-chazhao" ng-click='info.showSearch=true'></span>
+		</h1>
+
+	</header>
+
+	<div class="swiper-container home-banner">
+
+		<div class="swiper-wrapper">
+			<div class="swiper-slide" ng-repeat="(key,value) in banner" ng-click='goDetails(key)'>
+				<img ng-src='{{value}}' width="100%"  />
+			</div>
+		</div>
+
+		<div class="swiper-pagination"></div>
+
+	</div>
+
+	<nav class="home-nav">
+
+		<ul class="clear">
+			<li>
+				<a href="#main/limit">
+					<dl>
+						<dt class="iconfont icon-benqitemai"></dt>
+						<dd>限时特卖</dd>
+					</dl>
+				</a>
+			</li>
+			<li>
+				<a href="#classinfo" ng-click='info.searchClass="mianmo"'>
+					<dl>
+						<dt class="iconfont icon-mianmo"></dt>
+						<dd>面膜</dd>
+					</dl>
+				</a>
+			</li>
+			<li>
+				<a href="#classinfo" ng-click='info.searchClass="mianbuhuli"'>
+					<dl>
+						<dt class="iconfont icon-mianbuhuli"></dt>
+						<dd>面部护肤</dd>
+					</dl>
+				</a>
+			</li>
+			<li>
+				<a href="#classinfo" ng-click='info.searchClass="caizhuang"'>
+					<dl>
+						<dt class="iconfont icon-meizhuang"></dt>
+						<dd>彩妆</dd>
+					</dl>
+				</a>
+			</li>
+			<li>
+				<a href="#classinfo" ng-click='info.searchClass="xiangshui"'>
+					<dl>
+						<dt class="iconfont icon-xiangshuicaizhuang"></dt>
+						<dd>香水</dd>
+					</dl>
+				</a>
+			</li>
+			<li>
+				<a href="#classinfo" ng-click='info.searchClass="jiangkangmeiji"'>
+					<dl>
+						<dt class="iconfont icon-shou"></dt>
+						<dd>健康美肌</dd>
+					</dl>
+				</a>
+			</li>
+			<li>
+				<a href="#classinfo"  ng-click='info.searchClass="gerenhuli"'>
+					<dl>
+						<dt class="iconfont icon-yugang"></dt>
+						<dd>个人护理</dd>
+					</dl>
+				</a>
+			</li>
+			<li>
+				<a href="#classinfo" ng-click='info.searchClass="yunyinghuli"'>
+					<dl>
+						<dt class="iconfont icon-yunfu"></dt>
+						<dd>孕婴护理</dd>
+					</dl>
+				</a>
+			</li>
+			<li>
+				<a href="#classinfo" ng-click='info.searchClass="nanshizhuanqu"'>
+					<dl>
+						<dt class="iconfont icon-nanshihuli"></dt>
+						<dd>男士专区</dd>
+					</dl>
+				</a>
+			</li>
+			<li>
+				<a href="#classinfo">
+					<dl>
+						<dt class="iconfont icon-vip" ng-click='info.searchClass="mianmo"'></dt>
+						<dd>贵宾专享</dd>
+					</dl>
+				</a>
+			</li>
+		</ul>
+
+	</nav>
+
+	<section class="home-list home-timeslist">
+
+		<div class="clear hd">
+
+			<div class="left">
+				<h3>限时特卖</h3><b>9点场</b><span>{{time}}</span>
+			</div>
+			<div class="right" ng-click='toLimitSale()'>查看更多特卖<span class="iconfont icon-youjiantou"></span></div>
+
+		</div>
+
+		<ul>
+			<li ng-repeat="times in timesSale" ">
+				<img ng-src="{{times.bgimg}} " ng-click="goDetails(times.id)" />
+				<p ng-bind="times.dataname"></p>
+				<div class="jg">
+					<div class='price1'>
+						<span class="discount" ng-bind="times.discount+'折'"></span>
+						<span class="nowprice" ng-bind="times.price | currency:'￥'"></span>
+					</div>
+					<div>
+						<del ng-bind="times.oldprice | currency:'￥'"></del>
+					</div>
+				</div>
+				<span class="add-car iconfont icon-gouwuche" ng-click='addCar(times)'></span>
+			</li>
+		</ul>
+
+		<p class="more" ng-click='toLimitSale()'>查看更多限时特卖</p>
+
+
+	</section>
+
+	<section class="home-list home-hotlist">
+
+		<div class="clear hd tofixed">
+
+			<div class="left">
+				<p>热卖单品</p>
+			</div>
+
+		</div>
+
+		<nav class='tab' >
+			<a href="" class="tab-item {{$first?'active':''}}" ng-class='d==active?"active":""' ng-repeat="d in orderBy" ng-click="sort(d)">{{d}}</a>
+		</nav>
+		<ul class="hot-list clear">
+			<li ng-repeat='hot in hotSale'>
+				<img ng-src="{{hot.img}}"  ng-click="goDetails(hot.id)"/>
+				<div class="producttagname" ng-if='hot.killendtime'></div>
+				<div class="placename" ng-bind="hot.placename" ng-if='hot.placename'></div>
+				<div class="home-hotinfo">
+					<p><span ng-bind='hot.storeName'></span><span ng-bind="hot.name"></span></p>
+					<div class="jg">
+						<span ng-bind="hot.price | currency:'￥':'0'"></span>
+						<del ng-bind="hot.oldPrice | currency:'￥':'0'"></del>
+						<span ng-bind="hot.discount"></span>
+					</div>
+				</div>
+			</li>
+		</ul>
+	</section>
+</div>-->

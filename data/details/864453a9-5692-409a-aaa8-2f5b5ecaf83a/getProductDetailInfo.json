@@ -1,0 +1,248 @@
+{
+    "notifynum": "7",
+    "productsNo": "104335621001",
+    "tag": "downpro",
+    "displaytag": "product",
+    "img": "public/images/03/5c/14/ea5789c56b6c14bcbca1ae3fea8ae44ae13dc0e0.jpg",
+    "retailPrice": "480.000000",
+    "isnewhome": "0",
+    "stock": "89",
+    "seckill_id": "",
+    "producttagtype": [
+        {
+            "tagfilter": "tags_tag_new",
+            "tagtype": "goods",
+            "img": "public/images/bc/98/2c/1982aa26b2de9ef8efcc6248b73272e962714eaa.png",
+            "producttagid": "12",
+            "producttagname": "新品上市"
+        },
+        {
+            "tagfilter": "directdown_tag_new",
+            "tagtype": "goods",
+            "img": "public/images/9d/35/87/1342430b71e33eeb273b63a84f32719f3777ea4d.png",
+            "producttagid": "33",
+            "producttagname": "直降"
+        },
+        {
+            "tagfilter": "tags_tag_review",
+            "tagtype": "goods",
+            "img": "public/images/2a/0f/0a/927b1d631101309f5b7290337c803b4f1bca2fcb.png",
+            "producttagid": "13",
+            "producttagname": "好评中"
+        },
+        {
+            "tagfilter": "tags_tag_origin",
+            "tagtype": "goods",
+            "img": "public/images/18/8f/31/f038fa6b27b7c00232bc29080702470342f318ad.png",
+            "producttagid": "206",
+            "producttagname": "日本制造"
+        },
+        {
+            "tagfilter": "b2c_brand_origin_tag_jp",
+            "tagtype": "brand",
+            "img": "public/images/4b/c4/be/658eaaa004abf71273aa72856b3b9430e875f4d1.png",
+            "producttagid": "28",
+            "producttagname": "日本品牌"
+        }
+    ],
+    "isnew": "0",
+    "pricespec": [
+        {
+            "META_SIZE": "50毫升",
+            "META_SIZE_CODE": "Shiseido WHITE LUCENT Brightening Moisturizing Cream W"
+        }
+    ],
+    "starttime": "",
+    "forapp": "0",
+    "storeNameId": "ddce4873-be26-413c-85d1-6f9fc6daadda",
+    "dowmprice": "417.000000",
+    "efficacy": [],
+    "disnumber": "0",
+    "like": "1303",
+    "comprice": "0",
+    "storeNameEn": "Shiseido",
+    "discount": "8.7折",
+    "price": "417.000000",
+    "priceMapping": [
+        {
+            "endtime": "",
+            "META_SIZE": "50毫升",
+            "tag": "downpro",
+            "bn": "104335621001",
+            "salePurchase": "",
+            "isOnlineExclusive": "",
+            "META_SIZE_CODE": "Shiseido WHITE LUCENT Brightening Moisturizing Cream W",
+            "stock": "89",
+            "producttagtype": null,
+            "seckill_id": "",
+            "isnew": "0",
+            "is_bonded": "false",
+            "oldprice": "480.00",
+            "storeid": "ddce4873-be26-413c-85d1-6f9fc6daadda",
+            "ecstoreId": "3071",
+            "forapp": "0",
+            "dowmprice": "417.000000",
+            "META_COLOR": "FREE",
+            "pid": "be3b0507-e5eb-4bde-bdc4-dd1f2c17338b",
+            "storetype": null,
+            "discount": "8.7折",
+            "productId": "574ea027-81f5-4f84-a8ba-75bbf7cf920e",
+            "viplvprice": "",
+            "price": "417.000000",
+            "goodsid": "3802",
+            "nums": "",
+            "pname": "资生堂 透白美肌系列 夜间祛斑修护凝霜 (50毫升)",
+            "META_COLOR_CODE": null,
+            "salePlayCount": "",
+            "pricemappingstock": "89"
+        }
+    ],
+    "secondCategory": "1ea666a7-0067-4fd7-bf4d-784960aadc23",
+    "salePlayCount": "",
+    "topCategory": "716f8a75-8121-42f3-b695-c208604edc64",
+    "endtime": "",
+    "desc": "<strong><產品介紹><\/strong><br/><br/><Shiseido（资生堂）WHITE LUCENT 夜间面霜，修复肌肤在日间所受的紫外线与干燥等各种各样外界环境压力的伤害，重新赋予活力。在晚间肌肤自我修复时，补给充足的美白和保湿成分，翌晨带来富透明光泽的水凝素肌。><br/><br/><br/><strong><使用方法><\/strong><br/><br/><img style=\"width: 100%\" style=\"width: 100%\" style=\"width: 100%\" style=\"width: 100%\" style=\"width: 100%\" style=\"width: 100%\" style=\"width: 100%\" style=\"width: 100%\" style=\"width: 100%\" style=\"width: 100%\" style=\"width: 100%\" style=\"width: 100%\" style=\"width: 100%\" style=\"width: 100%\" alt=\"\" src=\" http://cdnec.sasa.com/public/promoImgs/howtouse/38_cream.jpg \" border=\"0\">",
+    "attribute": [
+        {
+            "alias": "productNoC",
+            "name": "商品编号",
+            "value": "104335621001",
+            "size": ""
+        },
+        {
+            "alias": "productBrandC",
+            "name": "商品品牌",
+            "value": "Shiseido",
+            "size": ""
+        },
+        {
+            "alias": "productSerieC",
+            "name": "商品系列",
+            "value": "透白美肌系列",
+            "size": ""
+        },
+        {
+            "alias": "productNameC",
+            "name": "商品名称",
+            "value": "夜间祛斑修护凝霜",
+            "size": ""
+        },
+        {
+            "alias": "productEfficacyC",
+            "name": "商品功效",
+            "value": "保湿,滋润,美白,提亮肤色,修护",
+            "size": ""
+        },
+        {
+            "alias": "productSpecC",
+            "name": "商品规格",
+            "value": "50毫升",
+            "size": ""
+        },
+        {
+            "alias": "shelfLifeC",
+            "name": "保质期限",
+            "value": "3年，具体日期以收到的实物为准，开封后跟产品包装指示为准",
+            "size": ""
+        },
+        {
+            "alias": "countryOfOriginC",
+            "name": "原产国家",
+            "value": "日本",
+            "size": ""
+        },
+        {
+            "alias": "适用人群",
+            "name": "适用人群",
+            "value": "所有肌肤",
+            "size": ""
+        }
+    ],
+    "lian": {
+        "iffollow": "0",
+        "sgrade": "0",
+        "fans": "0",
+        "relationpost": null,
+        "datarealtion": null,
+        "sicon": "",
+        "sname": "资生堂",
+        "storedesc": "",
+        "discuss": null,
+        "likepeople": null,
+        "dataother": null,
+        "newproductnum": "0",
+        "sbackground": "",
+        "productnum": "129"
+    },
+    "id": "864453a9-5692-409a-aaa8-2f5b5ecaf83a",
+    "salePurchase": "",
+    "pics": [
+        {
+            "orderindex": null,
+            "img": "public/images/03/5c/14/ea5789c56b6c14bcbca1ae3fea8ae44ae13dc0e0.jpg",
+            "imgHight": "0",
+            "imgWidth": "0",
+            "type": "main"
+        },
+        {
+            "orderindex": null,
+            "img": "public/images/c9/c9/e6/a1574bf22b4b888df0e65f299a2d664fc39cf18f.jpg",
+            "imgHight": "0",
+            "imgWidth": "0",
+            "type": "main"
+        },
+        {
+            "orderindex": null,
+            "img": "public/images/91/a3/97/1423a45f0f4a44b985812897903d192aa2b68c4e.jpg",
+            "imgHight": "0",
+            "imgWidth": "0",
+            "type": "main"
+        },
+        {
+            "orderindex": null,
+            "img": "public/images/e0/2b/91/25d2c377b9c50b517773f3434c2a30936d73f198.jpg",
+            "imgHight": "0",
+            "imgWidth": "0",
+            "type": "main"
+        },
+        {
+            "orderindex": null,
+            "img": "public/images/df/53/6d/cbab136262d41c3fdebf882c9bc89d9c3cdb4b15.jpg",
+            "imgHight": "0",
+            "imgWidth": "0",
+            "type": "main"
+        }
+    ],
+    "isOnlineExclusive": "false",
+    "name": "资生堂 透白美肌系列 夜间祛斑修护凝霜 (50毫升)",
+    "imgHight": 0,
+    "is_bonded": "false",
+    "oldPrice": "480.00",
+    "salesprice": "0",
+    "storeName": "资生堂",
+    "supplier_id": "",
+    "islike": "0",
+    "ecstoreId": "3802",
+    "paycount": "190",
+    "imgWidth": 0,
+    "storetype": "6",
+    "viplvprice": "",
+    "avgscore": "",
+    "color": [
+        {
+            "keyName": "META_SIZE",
+            "name": "规格",
+            "value": [
+                {
+                    "specName": "50毫升",
+                    "sysImg": null,
+                    "pimg": "public/images/03/5c/14/ea5789c56b6c14bcbca1ae3fea8ae44ae13dc0e0.jpg"
+                }
+            ],
+            "fieldname": "META_SIZE"
+        }
+    ],
+    "nums": "0",
+    "productTitle": "",
+    "comrate": "0"
+}

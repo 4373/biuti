@@ -1,0 +1,19 @@
+<div class="login" ng-class='{active:info.showLogin}'>
+	<header class="dhead">
+		<a href="" class="iconfont" ng-click='info.showLogin=false'>&#xe61a</a>
+		<span ng-click='info.showRegister=true'>注册</span>
+		<p>登录</p>
+	</header>
+	<div class="dkong"></div>
+	<div class="ddenglu">
+		<form action="" method="post">
+			<input ng-model="username" type="text" placeholder="邮箱/手机号" />
+			<div class="mima" ng-init="a=false">
+				<a ng-click='a=!a'>{{a?'显示':'隐藏'}}</a>
+				<input ng-model="pwd" type="{{a?'password':'text'}}" placeholder="密码" />
+			</div>
+			<span class="wangji">忘记密码</span>
+			<input ng-class="{active:username!=null&&pwd!=null}" ng-click="login(username,pwd)" type="button" value="登录" />
+		</form>
+	</div>
+</div>

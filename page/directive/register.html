@@ -1,0 +1,23 @@
+<div class="register" ng-class='{active:info.showRegister}'>
+	<header class="zhead">
+		<a href="" class="iconfont" ng-click='info.showRegister=false'>&#xe61a</a>
+		<p>注册</p>
+	</header>
+	<div class="zkong"></div>
+	<div class="zdenglu">
+		<form action="" method="post">
+			<input ng-model='inputyzm' type="text" id="user" placeholder="请输入手机号码" />
+			<div class="mima">
+				<input type="text" ng-model='yzm' id="password" placeholder="请输入短信验证码" />
+				<input class="get" type="button" ng-click="getyzm(inputyzm)" ng-disabled="isSubmitted" value={{regisinfo}} />
+
+			</div>
+			<div class="wangji">
+				<i class='iconfont icon-xuanzhong' ng-class='{c:!a}' ng-click='a=!a'></i>
+				<span>同意<a>莎莎网使用条款</a>和<a>隐私保护政策</a></span>
+			</div>
+			<span class="aa"></span>
+			<input type="button" class="btn" ng-class="{active:yzm.length==6}" value="下一步" />
+		</form>
+	</div>
+</div>

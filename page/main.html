@@ -1,0 +1,54 @@
+<section class="main" ui-view>
+
+</section>
+
+<!--脚部-->
+<footer class='footer'>
+	<section class="clear navbox">
+		<a class="navs" href='#main/home' ng-class="{active:info.now=='home'}" ng-click="now='home'">
+			<span class="icons iconfont icon-shouye"></span>
+			<p>首页</p>
+		</a>
+		<a class="navs" href='#main/list' ng-class="{active:info.now=='list'}" ng-click="now='list'">
+			<span class="icons iconfont icon-icon"></span>
+			<p>分类</p>
+		</a>
+		<a class="navs" href='#main/limit' ng-class="{active:info.now=='special'}" ng-click="now='special'">
+			<span class="icons iconfont icon-benqitemai"></span>
+			<p>特卖</p>
+		</a>
+		<a class="navs" href='#main/car' ng-class="{active:info.now=='car'}" ng-click="now='car'">
+			<span class="icons iconfont icon-gouwuche"></span>
+			<p>购物车</p>
+			<span class="shopCarCount" ng-if="info.shopCarCount">{{info.shopCarCount}}</span>
+		</a>
+		<a class="navs" href='#main/my' ng-class="{active:info.now=='my'}" ng-click="now='my'">
+			<span class="icons iconfont icon-wode"></span>
+			<p>我的</p>
+		</a>
+	</section>
+
+</footer>
+
+<!--搜索页面-->
+<search></search>
+
+<!--登陆页面-->
+<login></login>
+
+<!--注册页面-->
+<register></register>
+
+<!--设置页面	-->
+<setting></setting>
+
+<!--消息中心-->
+<message></message>
+
+<!--我的收藏和我的浏览记录-->
+<collect-scan></collect-scan>
+
+
+<div class="tip-message" ng-class='{active:message.show}'>
+	{{message.text}}
+</div>

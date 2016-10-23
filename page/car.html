@@ -1,0 +1,45 @@
+<div class="car  pagein">
+	<header>
+		<h2 class='title'>购物车</h2>
+		<span class="num" ng-if="all.count">{{all.count}}</span>
+	</header>
+	<section ng-if='all.count'>
+		<div class="tip">订单满￥249即可免运费</div>
+		<div class="card-box">
+
+			<div class="card clear" ng-repeat=" d in carData" ng-if="all.countArr[$index]!=0">
+				<div class="img-box" ng-click='goDetails(d.id)' >
+					<img src="img/loading.png" ng-src='{{d.img}}' alt='{{d.storeName}}'>
+				</div>
+				<div class="text-box">
+					<div class="title">
+						{{d.storeName}} {{d.name}}
+					</div>
+					<div class="box clear">
+						<div class="ctrl clear">
+							<a href="javascript:;" class="aqq" ng-click='aqq($index)'>-</a>
+							<input type="number" ng-model="all.countArr[$index]" ng-blur="blur($index)">
+							<a href="javascript:;" class="add" ng-click="add($index)">+</a>
+						</div>
+						<span class="price">{{d.price|currency:'￥'}}</span>
+					</div>
+				</div>
+
+			</div>
+		</div>
+		<div class="tip2">
+			<span>订单促销</span>
+			<p>● 满￥249免运费</p>
+		</div>
+		<div class="to-buy">
+			<div class="all">
+				<p>共{{all.count}}件商品</p>
+				<p>商品应付金额 {{all.price|currency:'￥'}}</p>
+			</div>
+			<div class="goto">结账</div>
+		</div>
+	</section>
+	<section ng-if="!all.count" class='nothing'>
+		
+	</section>
+</div>

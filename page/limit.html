@@ -1,0 +1,56 @@
+<div class="limit pagein">
+	<div class="limit-main">
+		<header class="header">
+			<h2 class="title">限时特卖</h2>
+			<span class="icons iconfont icon-chazhao" ng-click='info.showSearch=true'></span>
+		</header>
+		<div class="limittime clear">
+			<p class="begintime left">9点场</p>
+			<p class="endtime right">{{time}}</span></p>
+		</div>
+		<div class="contentbox">
+			<ul class="contentlist" >
+				<li class="content clear" ng-repeat="item in special" style="background:url({{'http://cn01.alicdn.sasa.com/'+item.bgimg}}) no-repeat; background-size:100% 100%">
+					<div class="imgbox left" ng-click="goDetails(item.productid)"></div>
+					<div class="info left">
+						<p class="title" ng-bind="item.productName"></p>
+						<p class="priceinfo">
+							<span class="discount" ng-bind="item.discount+'折'"></span>
+							<span class="price" ng-bind="item.price | currency:'￥':'0'"></span>
+						</p>
+						<del class="oldprice" ng-bind="item.oldprice | currency:'￥':'0'"></del>
+						<p class="iconbox" ng-if="{true:true,false:false}[item.number!=0]">
+							<span class="icons iconfont icon-gouwuche" ng-click='addCar(item)'></span>
+						</p>
+					</div>
+					<div class="empty" ng-if="{true:true,false:false}[item.number==0]">
+						<p class="describle">抢光了</p>
+						<p class="notice">到货通知<span class="iconfont icon-youjiantou icons"></span></p>
+					</div>
+				</li>
+			</ul>
+			<ul class="mainlist contentlist">
+				<li class="content clear" ng-repeat="item in special2">
+					<div class="imgbox left">
+						<img ng-src="{{'http://cn01.alicdn.sasa.com/'+item.iconimg}}" />
+					</div>
+					<div class="info left">
+						<p class="title" ng-bind="item.productName"></p>
+						<p class="priceinfo">
+							<span class="discount" ng-bind="item.discount+'折'"></span>
+							<span class="price" ng-bind="item.price | currency:'￥':'0'"></span>
+						</p>
+						<del class="oldprice" ng-bind="item.oldprice | currency:'￥':'0'"></del>
+						<p class="iconbox" ng-if="{true:true,false:false}[item.number!=0]">
+							<span class="icons iconfont icon-gouwuche"  ng-click='addCar(item)'></span>
+						</p>
+					</div>
+					<div class="empty" ng-if="{true:true,false:false}[item.number==0]">
+						<p class="describle">抢光了!</p>
+						<p class="notice">到货通知<span class="iconfont icon-youjiantou icons"></span></p>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="sasa">
+
+<head>
+	<meta charset="UTF-8">
+	<title>sasa</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" type="" href="font/iconfont.css">
+	<style>
+		@font-face {
+			font-family: 'iconfont';
+			src: url('font/iconfont.eot');
+			/* IE9*/
+			src: url('font/iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+			url('font/iconfont.woff') format('woff'), /* chrome、firefox */
+			url('font/iconfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+			url('font/iconfont.svg#iconfont') format('svg');
+			/* iOS 4.1- */
+		}
+	</style>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" type="" href="css/swiper-3.3.1.min.css">
+	<script src="lib/angular-1.5.5.js"></script>
+	<script src='lib/angular-ui-router-1b3.js'></script>
+</head>
+
+<body ng-controller="mainCtrl">
+
+	<!--<div id='startpage' style="witdh:100%;height:100%;position:fixed;z-index:30000" ><img src="img/start.png" alt="" width='100%'></div>
+	<script>
+		setTimeout(function(){
+			document.getElementById('startpage').style.display='none';
+		},3000)
+	</script>-->
+
+
+	<ui-view></ui-view>
+	<script src='lib/swiper-3.3.1.min.js'></script>
+	<script src="js/main.js"></script>
+	<script src="js/car.js"></script>
+	<script src="js/classinfo.js"></script>
+	<script src="js/home.js"></script>
+	<script src="js/common.js"></script>
+	<script src="js/list.js"></script>
+	<script src="js/limit.js"></script>
+	<script src="js/my.js"></script>
+	<script src="js/details.js"></script>
+</body>
+
+</html>

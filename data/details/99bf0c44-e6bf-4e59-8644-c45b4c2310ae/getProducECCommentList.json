@@ -1,0 +1,105 @@
+{
+    "message": "get comment success",
+    "result": "success",
+    "count": "5",
+    "avgscore": "5.0",
+    "comments": [
+        {
+            "goods_point": "5.0",
+            "point": "20",
+            "author": "15172342055",
+            "title": "",
+            "time": "1451484625",
+            "ifcomment": "false",
+            "point_item": [
+                "效果显著"
+            ],
+            "ident_1": null,
+            "COMMENT": "第一次用BB霜，没什么缺点",
+            "ident_2": null,
+            "member_lv": "",
+            "skintype": "-1",
+            "author_id": "50198548",
+            "ident_5": null,
+            "ident_3": null,
+            "ident_4": null
+        },
+        {
+            "goods_point": "5.0",
+            "point": "20",
+            "author": "17889877265",
+            "title": "",
+            "time": "1450340148",
+            "ifcomment": "false",
+            "point_item": [
+                "效果显著"
+            ],
+            "ident_1": null,
+            "COMMENT": "遮瑕一般，没有特别干，用了也没长痘痘。",
+            "ident_2": null,
+            "member_lv": "",
+            "skintype": "-1",
+            "author_id": "50198594",
+            "ident_5": null,
+            "ident_3": null,
+            "ident_4": null
+        },
+        {
+            "goods_point": "5.0",
+            "point": "20",
+            "author": "940231264@qq.com",
+            "title": "",
+            "time": "1447690960",
+            "ifcomment": "false",
+            "point_item": [
+                "效果显著",
+                "非常满意"
+            ],
+            "ident_1": null,
+            "COMMENT": "",
+            "ident_2": null,
+            "member_lv": "2",
+            "skintype": "5",
+            "author_id": "50179903",
+            "ident_5": null,
+            "ident_3": null,
+            "ident_4": null
+        },
+        {
+            "goods_point": null,
+            "point": "0",
+            "author": "89544095@qq.com",
+            "title": "Dr. Jart   DIS-A-PORE Beauty Balm BB霜 好用",
+            "time": "1427904000",
+            "ifcomment": "false",
+            "point_item": null,
+            "ident_1": null,
+            "COMMENT": "用过试用装才买的，细腻，自然，遮瑕效果非常好，美白效果也不错，非常值得购买的，一天用下来，妆也不化，好用~",
+            "ident_2": null,
+            "member_lv": "",
+            "skintype": "-1",
+            "author_id": "1215784",
+            "ident_5": null,
+            "ident_3": null,
+            "ident_4": null
+        },
+        {
+            "goods_point": "5.0",
+            "point": "0",
+            "author": "158230675@qq.com",
+            "title": "喜欢 ",
+            "time": "1422201600",
+            "ifcomment": "false",
+            "point_item": null,
+            "ident_1": null,
+            "COMMENT": "不怎么化妆，平时就擦个BB，这款很自然，遮瑕也好。喜欢。",
+            "ident_2": null,
+            "member_lv": "2",
+            "skintype": "-1",
+            "author_id": "1930722",
+            "ident_5": null,
+            "ident_3": null,
+            "ident_4": null
+        }
+    ]
+}

@@ -1,0 +1,287 @@
+<div class="mdetails pagein" ng-controller="detailsCtrl">
+
+    <!--详情主页面ng-controller="mDetails"-->
+    <div class="details" >
+
+
+        <div class="marks" ng-class='{active:!isnull}'>
+            <div class="tips">
+                <h2>sorry,没有获取到数据</h2>
+                <div class='kong'>
+
+                </div>
+            </div>
+        </div>
+
+
+
+        <!--头部-->
+        <header class="header">
+            <span class="icons iconl iconfont icon-zuojiantou" ng-click="back()"></span>
+            <p class="title" ng-bind="urlData.details.name"></p>
+            <span class="icons iconr iconfont icon-gengduo"></span>
+        </header>
+        <!--mian-->
+        <div class="main" ng-if='urlData.details'>
+            <div class="limittime">
+                <p class="">特卖中&nbsp;<span>{{time}}</span></p>
+            </div>
+            <!--轮播图-->
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide" ng-repeat="item in urlData.details.pics">
+                        <img ng-src="{{'http://cn01.alicdn.sasa.com/'+item.img}}" />
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+            <!--商品标题-->
+            <div class="introduce clear" ng-click="details.goodsattr=true">
+                <p class="producttitle left" ng-bind="urlData.details.productTitle||urlData.details.name"></p>
+                <span class="icons right iconfont icon-youjiantou"></span>
+            </div>
+
+            <!--价格,评论纵观,商品标题-->
+            <div class="infobox">
+                <div class="sellinfo">
+                    <span class="discount" ng-bind="urlData.details.discount"></span>
+                    <span class="newprice" ng-bind="urlData.details.price | currency:'￥':'0'"></span>
+                    <del class="oldprice" ng-bind="urlData.details.oldPrice | currency:'￥':'0'"></del>
+                </div>
+                <div class="commentsbox">
+                    <span class="level iconfont icon-wuxing"></span>
+                    <span class="comments" ng-bind="urlData.commonts.count+'人评论'"></span>
+                </div>
+                <p class="goodsName" ng-bind="urlData.details.name"></p>
+            </div>
+            <!--促销信息-->
+            <div class="promotionbox">
+                <p class="promotion" ng-bind="promotion.result.gift[0].tag.tag_name"></p>
+                <ul class="promotioninfo">
+                    <li ng-bind="promotion.result.order[0].name"></li>
+                    <li ng-bind="promotion.result.gift[0].item.title"></li>
+                </ul>
+                <!--另外的同品牌的商品-->
+                <div class="samebanner clear">
+                    <div class="left goodsicon" ng-if='urlData.details.lian.sicon'><img ng-src="{{'http://cn01.alicdn.sasa.com/'+urlData.details.lian.sicon}}" /></div>
+                    <div class="left">
+                        <p class="banner" ng-bind="urlData.details.lian.sname"></p>
+                        <p class="other" ng-bind="'共'+urlData.details.lian.productnum+'件商品'"></p>
+                    </div>
+                    <span class="iconfont icons icon-youjiantou"></span>
+                </div>
+            </div>
+            <!--用来占位-->
+            <div class="d" style='height:10px;' ng-if='urlData.details.producttagtype.length==0'></div>
+
+            <!--商品标签-->
+            <div class="goodstag" ng-if='urlData.details.producttagtype.length!=0'>
+                <ul class="clear tagbox">
+                    <li class="left taglist clear" ng-repeat="item in urlData.details.producttagtype" ng-if="$index<4">
+                        <img class="imgs left" ng-src="{{'http://cn01.alicdn.sasa.com/'+item.img}}" />
+                        <span class="tagname left" ng-bind="item.producttagname"></span>
+                    </li>
+                </ul>
+            </div>
+            <!--小二 ，先来三条用户评论-->
+            <div class="comm" ng-if='urlData.commonts.comments.length'>
+                <!--评论总标题-->
+                <h2 class="pinlun">用户评价</h2>
+                <!--评分星星-->
+                <div class="pinluninfo clear">
+                    <span class="left level iconfont icon-wuxing" data-level={{urlData.commonts.avgscore|number: '0'}}></span>
+                    <span class="right" ng-bind="urlData.commonts.count+'人评价'"></span>
+                </div>
+                <!--装评论的盒子-->
+                <div class="commentlistbox">
+                    <!--又加了一个ul-->
+                    <ul class="commentlist">
+                        <!--每个li每个评论-->
+                        <li class="comment">
+                            <div class="top clear">
+                                <div class="head left">
+                                    <span class="icons iconfont icon-wode"></span>
+                                </div>
+                                <div class="left">
+                                    <p class="author left" ng-bind="urlData.commonts.comments[0].author"></p>
+                                    <p class=""></p>
+                                </div>
+                                <div class="right">
+                                    <p class="level iconfont icon-wuxing" data-level={{urlData.commonts.comments[0].goods_point|number: '0'}}></p>
+                                    <p class="time" ng-bind="urlData.commonts.comments[0].time"></p>
+                                </div>
+                            </div>
+                            <p class="title" ng-bind="urlData.commonts.comments[0].title"></p>
+                            <div class="detailcom">
+                                <span class="item" ng-repeat="item in urlData.commonts.comments[0].point_item" ng-bind="item"></span>
+                                <span class="commen" ng-bind="urlData.commonts.comments[0].COMMENT"></span>
+                                <div class="idents" ng-if="{true:true,false:false}[urlData.commonts.comments[0].ident_1!=null]">
+                                    <img class="ident" ng-src="{{'http://cn01.alicdn.sasa.com/'+urlData.commonts.comments[0].ident_1}}" />
+                                </div>
+                            </div>
+                        </li>
+                        <!--每个li每个评论-->
+                        <li class="comment">
+                            <div class="top clear">
+                                <div class="head left">
+                                    <span class="icons iconfont icon-wode"></span>
+                                </div>
+                                <div class="left">
+                                    <p class="author left" ng-bind="urlData.commonts.comments[1].author"></p>
+                                    <p class=""></p>
+                                </div>
+                                <div class="right">
+                                    <p class="level iconfont icon-wuxing" data-level={{urlData.commonts.comments[1].goods_point|number: '0'}}></p>
+                                    <p class="time" ng-bind="urlData.commonts.comments[1].time"></p>
+                                </div>
+                            </div>
+                            <p class="title" ng-bind="urlData.commonts.comments[1].title"></p>
+                            <div class="detailcom">
+                                <span class="item" ng-repeat="item in urlData.commonts.comments[1].point_item" ng-bind="item"></span>
+                                <span class="commen" ng-bind="urlData.commonts.comments[1].COMMENT"></span>
+                                <div class="idents" ng-if="{true:true,false:false}[urlData.commonts.comments[1].ident_1!=null]">
+                                    <img class="ident" ng-src="{{'http://cn01.alicdn.sasa.com/'+urlData.commonts.comments[1].ident_1}}" />
+                                </div>
+                            </div>
+                        </li>
+                        <!--每个li每个评论-->
+                        <li class="comment">
+                            <div class="top clear">
+                                <div class="head left">
+                                    <span class="icons iconfont icon-wode"></span>
+                                </div>
+                                <div class="left">
+                                    <p class="author left" ng-bind="urlData.commonts.comments[2].author"></p>
+                                    <p class=""></p>
+                                </div>
+                                <div class="right">
+                                    <p class="level iconfont icon-wuxing" data-level={{urlData.commonts.comments[2].goods_point|number: '0'}}></p>
+                                    <p class="time" ng-bind="urlData.commonts.comments[2].time"></p>
+                                </div>
+                            </div>
+                            <p class="title" ng-bind="urlData.commonts.comments[2].title"></p>
+                            <div class="detailcom">
+                                <span class="item" ng-repeat="item in urlData.commonts.comments[2].point_item" ng-bind="item"></span>
+                                <span class="commen" ng-bind="urlData.commonts.comments[2].COMMENT"></span>
+                                <div class="idents" ng-if="{true:true,false:false}[urlData.commonts.comments[2].ident_1!=null]">
+                                    <img class="ident" ng-src="{{'http://cn01.alicdn.sasa.com/'+urlData.commonts.comments[2].ident_1}}" />
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <!--查看更多-->
+                <p class="more" ng-click="details.commonts=true">查看更多评价</p>
+            </div>
+        </div>
+
+        <!--添加收藏,添加购物车-->
+        <div class="addbox clear">
+            <div class="left clear leftcontent">
+                <div class="left lcon" ng-click='collectIt()' ng-class='{active:isCollect}'>
+                    <span class="icons iconfont icon-shoucang"></span>
+                    <p class="wenzi">收藏</p>
+                </div>
+                <span class="fline"></span>
+                <div class="left rcon">
+                    <span class="icons iconfont icon-gouwuche"></span>
+                    <a class="wenzi" href='#main/car' style='display:block;color:white'>购物车</a>
+                </div>
+            </div>
+            <div class="left rightcontent" ng-click='addCar()'>
+                <span class="addtocar">加入购物车</span>
+            </div>
+        </div>
+    </div>
+
+    <!--属性ng-controller="mGoodsattr"-->
+    <div  class="goodsattr" ng-class='{active:details.goodsattr}' >
+        <!--外层标签-->
+        <div class="goodsattrmodule">
+            <!--头部-->
+            <div class="header">
+                <!--详情头部标题-->
+                <header class="headin">
+                    <span ng-click="details.goodsattr=false" class="attrback icons iconl iconfont icon-zuojiantou"></span>
+                    <p class="title">{{urlData.details.name}}</p>
+                    <span class="icons iconr iconfont icon-gengduo"></span>
+                </header>
+                <!--标题下面的两个按钮，参数和详情-->
+                <div class="options clear">
+                    <a class="para left" ng-click="cNow=true" ng-class="{active:cNow}">参数</a>
+                    <a class="btndetails left" ng-click="cNow=false" ng-class="{active:!cNow}">详情</a>
+                </div>
+            </div>
+            <!--主要呈现内容-->
+            <div class="maincontent" ng-class="{active:cNow}">
+                <!--参数-->
+                <div class="paracontent">
+                    <p class="productTitle" ng-bind="goodsPara.productTitle"></p>
+                    <p class="productAttr clear" ng-repeat="item in goodsPara.attribute">
+                        <span class="name left" ng-bind="item.name+':'"></span>
+                        <span class="value left" ng-bind="item.value"></span>
+                    </p>
+                </div>
+                <!--详情-->
+                <div class="descontent" ng-bind-html="goodsPara.desc"></div>
+            </div>
+        </div>
+    </div>
+    <!--end属性-->
+
+    <!--评论ng-controller="mComment"-->
+    <div  class="commentui" ng-class='{active:details.commonts}'>
+        <div class="commentmodule">
+            <header class="header">
+                <span class="icons iconl iconfont icon-zuojiantou" ng-click="details.commonts=false"></span>
+                <p class="title pingjia">用户评价</p>
+            </header>
+            <div class="comm">
+                <div class="pinluninfo clear">
+                    <span class="left level iconfont icon-wuxing" data-level={{commentss.avgscore|number: '0'}}></span>
+                    <span class="right" ng-bind="commentss.count+'人评价'"></span>
+                </div>
+                <div class="commentlistbox">
+                    <ul class="commentlist">
+                        <li class="comment" ng-repeat="item in commentss.comments">
+                            <div class="top clear">
+                                <div class="head left">
+                                    <span class="icons iconfont icon-wode"></span>
+                                </div>
+                                <div class="left">
+                                    <p class="author left" ng-bind="item.author"></p>
+                                    <p class=""></p>
+                                </div>
+                                <div class="right">
+                                    <p class="level iconfont icon-wuxing" data-level={{item.goods_point|number: '0'}}></p>
+                                    <p class="time" ng-bind="item.time"></p>
+                                </div>
+                            </div>
+                            <p class="title" ng-bind="item.title"></p>
+                            <div class="detailcom">
+                                <span class="item" ng-repeat="item in item.point_item" ng-bind="item"></span>
+                                <span class="commen" ng-bind="item.COMMENT"></span>
+                                <div class="idents" ng-if="{true:true,false:false}[item.ident_1!=null]">
+                                    <img class="ident" ng-src="{{'http://cn01.alicdn.sasa.com/'+item.ident_1}}" />
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <p class="last">已经没有啦</p>
+            </div>
+        </div>
+    </div>
+    <!--end评论-->
+
+
+
+
+</div>
+
+
+
+
+<div class="tip-message" ng-class='{active:message.show}'>
+    {{message.text}}
+</div>

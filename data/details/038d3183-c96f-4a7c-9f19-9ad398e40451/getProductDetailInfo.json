@@ -1,0 +1,193 @@
+{
+    "notifynum": "0",
+    "productsNo": "108102812001",
+    "tag": "downpro",
+    "displaytag": "product",
+    "img": "public/images/c7/d8/0f/11662532fda2a87d87bef69496a34e52b0959eb5.jpg",
+    "retailPrice": "275.000000",
+    "isnewhome": "1",
+    "stock": "2138",
+    "seckill_id": "",
+    "producttagtype": [
+        {
+            "tagfilter": "directdown_tag_new",
+            "tagtype": "goods",
+            "img": "public/images/9d/35/87/1342430b71e33eeb273b63a84f32719f3777ea4d.png",
+            "producttagid": "33",
+            "producttagname": "直降"
+        },
+        {
+            "tagfilter": "tags_tag_origin",
+            "tagtype": "goods",
+            "img": "public/images/3c/03/3f/04d420210021b1c95fe30427d06fad20bd190656.png",
+            "producttagid": "17",
+            "producttagname": "韩国制造"
+        },
+        {
+            "tagfilter": "tags_tag_new",
+            "tagtype": "goods",
+            "img": "public/images/bc/98/2c/1982aa26b2de9ef8efcc6248b73272e962714eaa.png",
+            "producttagid": "12",
+            "producttagname": "新品上市"
+        },
+        {
+            "tagfilter": "b2c_brand_origin_tag_sk",
+            "tagtype": "brand",
+            "img": "public/images/36/74/a3/8ae1c7c8877ec1caaa8ed39ae8cdc1401d8ab384.png",
+            "producttagid": "29",
+            "producttagname": "韩国品牌"
+        }
+    ],
+    "isnew": "1",
+    "pricespec": [
+        {
+            "META_SIZE": "27毫升 x 10",
+            "META_SIZE_CODE": "abc"
+        }
+    ],
+    "starttime": "",
+    "forapp": "0",
+    "storeNameId": "18cdea5e-b5eb-4ed1-9685-b77bb3149883",
+    "dowmprice": "95.000000",
+    "efficacy": [],
+    "disnumber": "0",
+    "like": "2004",
+    "comprice": "0",
+    "storeNameEn": "Mediheal",
+    "discount": "3.5折",
+    "price": "95.000000",
+    "priceMapping": [
+        {
+            "endtime": "",
+            "META_SIZE": "27毫升 x 10",
+            "tag": "downpro",
+            "bn": "108102812001",
+            "salePurchase": "",
+            "isOnlineExclusive": "",
+            "META_SIZE_CODE": null,
+            "stock": "2138",
+            "producttagtype": null,
+            "seckill_id": "",
+            "isnew": "1",
+            "is_bonded": "false",
+            "oldprice": "275.00",
+            "storeid": "18cdea5e-b5eb-4ed1-9685-b77bb3149883",
+            "ecstoreId": "19043",
+            "forapp": "0",
+            "dowmprice": "95.000000",
+            "META_COLOR": "FREE",
+            "pid": "038d3183-c96f-4a7c-9f19-9ad398e40451",
+            "storetype": null,
+            "discount": "3.5折",
+            "productId": "9e0294a7-b367-47bc-b532-e5732620187c",
+            "viplvprice": "",
+            "price": "95.000000",
+            "goodsid": "19475",
+            "nums": "",
+            "pname": "美迪惠尔 LINE FRIENDS 兔兔深层亮白淡斑保湿导入面膜 (27毫升 x 10)",
+            "META_COLOR_CODE": null,
+            "salePlayCount": "",
+            "pricemappingstock": "2138"
+        }
+    ],
+    "secondCategory": "5620cdeb-b1ee-4cf8-86b2-3b7cbe89ad51",
+    "salePlayCount": "",
+    "topCategory": "716f8a75-8121-42f3-b695-c208604edc64",
+    "endtime": "",
+    "desc": "<strong><产品介紹 &nbsp;&nbsp;><\/strong><p><strong><br/><\/strong><\/p><p><strong><【Mediheal美迪惠尔Line Friends 兔兔深层亮白淡斑保湿导入面膜】 (27毫升 x 10片) ><\/strong><br/><Mediheal 美迪惠尔Line Friends 兔兔深层亮白淡斑保湿导入面膜能美白亮肤，助你回复白皙美肌。独有IPI Lightmax集中抑制黑色，提升肌肤透明感。配方蕴含美白成份熊果苷、桑树萃取物及维他命C-AA2G，能美白祛印，淡化色斑，改善暗沉，解决肤色不均的问题，令肌肤回复光泽亮丽。添加的保加利亚玫瑰水具高强的保湿能力，为肌肤补充大量水份，提升水润度。><\/p><p>< ><\/p><div><strong><使用方法><\/strong><p>< ><\/p><\/div><p><在完成清洁步骤后，先涂上爽肤水，再敷上面膜。敷大约15-20分钟后清洗干净。建议一星期使用两至三次。><\/p>",
+    "attribute": [
+        {
+            "alias": "productNoC",
+            "name": "商品编号",
+            "value": "108102812001",
+            "size": ""
+        },
+        {
+            "alias": "productBrandC",
+            "name": "商品品牌",
+            "value": "Mediheal",
+            "size": ""
+        },
+        {
+            "alias": "productSerieC",
+            "name": "商品系列",
+            "value": "LINE FRIENDS",
+            "size": ""
+        },
+        {
+            "alias": "productNameC",
+            "name": "商品名称",
+            "value": "兔兔深层亮白淡斑保湿导入面膜",
+            "size": ""
+        },
+        {
+            "alias": "productEfficacyC",
+            "name": "商品功效",
+            "value": "保湿,美白",
+            "size": ""
+        },
+        {
+            "alias": "productSpecC",
+            "name": "商品规格",
+            "value": "27毫升 x 10",
+            "size": ""
+        },
+        {
+            "alias": "shelfLifeC",
+            "name": "保质期限",
+            "value": " 3年，具体日期以收到的实物为准，开封后跟产品包装指示为准",
+            "size": ""
+        },
+        {
+            "alias": "countryOfOriginC",
+            "name": "原产国家",
+            "value": "韩国",
+            "size": ""
+        }
+    ],
+    "lian": {
+        "iffollow": "0",
+        "sgrade": "0",
+        "fans": "0",
+        "relationpost": null,
+        "datarealtion": null,
+        "sicon": "public/images/0e/8f/ad/bc050a547550b2472378e19238b1b2b7b159ffe0.png",
+        "sname": "美迪惠尔",
+        "storedesc": "",
+        "discuss": null,
+        "likepeople": null,
+        "dataother": null,
+        "newproductnum": "0",
+        "sbackground": "",
+        "productnum": "20"
+    },
+    "id": "038d3183-c96f-4a7c-9f19-9ad398e40451",
+    "salePurchase": "",
+    "pics": [
+        {
+            "orderindex": null,
+            "img": "public/images/c7/d8/0f/11662532fda2a87d87bef69496a34e52b0959eb5.jpg",
+            "imgHight": "0",
+            "imgWidth": "0",
+            "type": "main"
+        }
+    ],
+    "isOnlineExclusive": "false",
+    "name": "美迪惠尔 LINE FRIENDS 兔兔深层亮白淡斑保湿导入面膜 (27毫升 x 10)",
+    "imgHight": 0,
+    "is_bonded": "false",
+    "oldPrice": "275.00",
+    "salesprice": "0",
+    "storeName": "美迪惠尔",
+    "supplier_id": "",
+    "islike": "0",
+    "ecstoreId": "19475",
+    "paycount": "147",
+    "imgWidth": 0,
+    "storetype": "2",
+    "viplvprice": "",
+    "avgscore": "",
+    "nums": "0",
+    "productTitle": "【Mediheal美迪惠尔Line Friends 兔兔深层亮白淡斑保湿导入面膜】 (27毫升 x 10片)，Mediheal 美迪惠尔 Line Friends 兔兔深层亮白淡斑保湿导入面膜能美白亮肤，助你回复白皙美肌。独有 IPI Lightmax 集中抑制黑色，提升肌肤透明感。配方蕴含美白成份熊果苷、桑树萃取物及维他命 C-AA2G，能美白祛印，淡化色斑，改善暗沉，解决肤色不均的问题，令肌肤回复光泽亮丽。添加的保加利亚玫瑰水具高强的保湿能力，为肌肤补充大量水份，提升水润度。",
+    "comrate": "0"
+}

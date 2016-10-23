@@ -1,0 +1,26 @@
+
+<div class="search" ng-class='{active:info.showSearch}'>
+	<form class="search-bar clear">
+		<i class="iconfont icon-chazhao search-btn" ng-click='addHistory(key)'></i>
+		<input type="search" placeholder="保湿" class="left" ng-model="key" />
+		<span class="left" ng-click='info.showSearch=false'>取消</span>
+	</form>
+
+	<section class="search-main">
+		<h4>热搜</h4>
+		<ul class='clear'>
+			<li ng-repeat="(key,value) in hotSearch" ng-click='addHistory(value,info.searchClass=key)' class="left"><a href="#classinfo">{{value}}</a></li>
+		</ul>
+	</section>
+
+	<section class="search-main search-history" ng-if="history">
+		<h4>
+			<span>历史搜索</span>
+			<i class="" ng-click="clearHistory()"><span>x</span></i>
+		</h4>
+
+		<ul class='clear'>
+			<li ng-repeat="word in history" class="left"><a href="javascript:;">{{word}}</a></li>
+		</ul>
+	</section>
+</div>
