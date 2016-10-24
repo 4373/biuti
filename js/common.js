@@ -248,37 +248,37 @@ biuti.factory('collectAndScanned', function () {
 biuti.directive('search',function(){
     return {
         restrict:'E',
-        templateUrl:'./page/directive/search.html',
-        replace:true
+        templateUrl:'page/directive/search.html',
+        replace:false
     }
 }).directive('login',function(){
     return {
         restrict:'E',
-        templateUrl:'./page/directive/login.html',
-        replace:true
+        templateUrl:'page/directive/login.html',
+        replace:false
     }
 }).directive('register',function(){
     return {
         restrict:'E',
-        templateUrl:'./page/directive/register.html',
-        replace:true
+        templateUrl:'page/directive/register.html',
+        replace:false
     }
 }).directive('setting',function(){
     return {
         restrict:'E',
-        templateUrl:'./page/directive/setting.html',
-        replace:true
+        templateUrl:'page/directive/setting.html',
+        replace:false
     }
 }).directive('message',function(){
     return {
         restrict:'E',
-        templateUrl:'./page/directive/message.html',
-        replace:true
+        templateUrl:'page/directive/message.html',
+        replace:false
     }
 }).directive('collectScan',function(){
     return {
         restrict:'E',
-        templateUrl:'./page/directive/collect-scan.html',
-        replace:true
+        templateUrl:'page/directive/collect-scan.html',
+        replace:false
     }
 })
