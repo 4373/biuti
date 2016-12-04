@@ -11,7 +11,7 @@ biuti.controller("classinfoCtrl", ["$scope", '$http','$location','searchResult',
     searchResult.get('data/class/'+$scope.info.searchClass+'/xs.json',$scope,'searchData');
     $scope.time="剩余 00 天 00 : 00 : 00";
     $interval(function(){
-        $scope.time=timeEnd('2016/10/28 23:00:00')
+        $scope.time=timeEnd('2016/11/10 23:00:00')
     },1000)
 
     $scope.sort=function(d){

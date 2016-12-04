@@ -22,6 +22,9 @@ biuti.controller('detailsCtrl', ["$scope", "$http", "$location", "$sce", '$inter
 	$scope.isnull = true;//判断有没有收录该商品的详情
 
 
+	$interval(function(){
+        $scope.time=timeEnd('2016/11/6 18:00:00')
+    },1000)
 	//退出详情页
     $scope.back = function () {
         window.history.back();
