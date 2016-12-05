@@ -135,37 +135,33 @@ biuti.factory('ShopCar', [function () {
     }
 }])
 
-biuti.factory('Search', function () {
-    return {
-        show: function () {
-            $('.search').addClass('active');
-        },
-        hide: function () {
-            $('.search').removeClass('active');
-        },
-        addHistory: function (str) {
-            var data = JSON.parse(localStorage.getItem('searchHistory'));
-            //如果有历史记录
-            if (data) {
-                for (var i = 0; i < data.length; i++) {
-                    if (data[i] === str) {//如果该搜索已被记录
-                        localStorage.setItem('searchHistory', JSON.stringify(data));
-                        return;
-                    }
-                }
-                data.push(str);
-                localStorage.setItem('searchHistory', JSON.stringify(data));
-            } else {//如果没有记录
-                data = [];
-                data.push(str);
-                localStorage.setItem('searchHistory', JSON.stringify(data));
-            }
-        },
-        clearHistory: function () {
-            localStorage.clearItem('searchHistory');
-        }
-    }
-})
+// biuti.factory('Search', function () {
+//     return {
+
+//         addHistory: function (str) {
+//             if(str=='') return;
+//             var data = JSON.parse(localStorage.getItem('searchHistory'));
+//             //如果有历史记录
+//             if (data) {
+//                 for (var i = 0; i < data.length; i++) {
+//                     if (data[i] === str) {//如果该搜索已被记录
+//                         localStorage.setItem('searchHistory', JSON.stringify(data));
+//                         return;
+//                     }
+//                 }
+//                 data.push(str);
+//                 localStorage.setItem('searchHistory', JSON.stringify(data));
+//             } else {//如果没有记录
+//                 data = [];
+//                 data.push(str);
+//                 localStorage.setItem('searchHistory', JSON.stringify(data));
+//             }
+//         },
+//         clearHistory: function () {
+//             localStorage.clearItem('searchHistory');
+//         }
+//     }
+// })
 
 //收藏与浏览记录
 biuti.factory('collectAndScanned', function () {

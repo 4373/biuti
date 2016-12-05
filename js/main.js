@@ -118,7 +118,8 @@ biuti.controller('mainCtrl', ['$scope', '$location', 'ShopCar', '$interval','$ti
 		'yunyinghuli':'母子用品'
 	};
 	$scope.addHistory = function (str) {
-		if (str.length == 0 || str.indexOf(' ') != -1) return;
+		
+		if (str===undefined || str.indexOf(' ') == -1) return;
 
 		var data = JSON.parse(localStorage.getItem('searchHistory'));
 		//如果有历史记录
