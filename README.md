@@ -2,7 +2,11 @@
 这是一个电商app，模仿的sasa原生app。你可以从[sasa官网](http://www.sasa.com/)下载app观看。
 
 
-![alt](biuti.gif)
+![alt](img/home.png)
+![alt](img/list.png)
+![alt](img/limit.png)
+![alt](img/car.png)
+![alt](img/i.png)
 
 里面所有数据是从原生app中抓包获取的。如何抓包请自行百度。
 
